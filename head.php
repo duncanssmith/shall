@@ -13,7 +13,7 @@
 -->
 <head>
 <link rel="shortcut icon" href="images/spacer.gif" />
-<link rel="stylesheet" href="css/sh.css" type="text/css">
+<link rel="stylesheet" href="css/main.css" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta name="search" content="yes">
 
@@ -22,12 +22,13 @@
 <?php
 	
 if($xmlOn){
-	$p =& new xmlParser();
-	$p->parse($xmlFile);
+	#$p =& new xmlParser();
+	#$p->parse($xmlFile);
 	#$p->parse('http://domain.com/rss.xml');
-	echo "<script language=\"javascript\">\n";
-	print_r($p->output);
-	echo "\n</script>";
+	#echo "<script language=\"javascript\">\n";
+	#print_r($p->output);
+	#echo "\n</script>";
+	include 'artwork.php';
 }
 	
 	if($thisPage=="index.php"){
