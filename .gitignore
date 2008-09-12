@@ -1,0 +1,16 @@
+*.log
+*.*~
+*.sql
+*.swp
+*.txt
+*.csv
+*.xls
+*.doc
+*.psd
+*.jpg
+*.gif
+*.png
+*.sib
+*.tmp
+Thumbs.db
+Session.vim

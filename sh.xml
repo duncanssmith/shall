@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<sh>
+<section name="Banners">
+<item id="47" title="Banner" desc="none" medium="Oil on Canvas" cmHeight="183" cmWidth="183" year="1986" owner="unknown"/>
+<item id="48" title="Banner" desc="none" medium="Oil on Canvas" cmHeight="183" cmWidth="200" year="1987" owner="unknown"/>
+<item id="219" title="Untitled" desc="none" medium="Mixed Media on Unstretched Canvas" cmHeight="200" cmWidth="200" year="1987" owner="unknown"/>
+<item id="220" title="Untitled" desc="none" medium="Mixed Media on Unstretched Canvas" cmHeight="200" cmWidth="200" year="1987" owner="unknown"/>
+<item id="225" title="Artist in her studio, with Banner" desc="Chisenhale Studios" medium="unknown" cmHeight="0" cmWidth="0" year="1988" owner="unknown"/>
+</section>
+<section name="Catalogues and Primers">
+<item id="11" title="Catalogue II" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1989" owner="Private Collection UK"/>
+<item id="48" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="45" cmWidth="45" year="1988" owner="unknown"/>
+<item id="49" title="Women's Work" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="120" cmWidth="120" year="1988" owner="unknown"/>
+<item id="51" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="45" cmWidth="55" year="1988" owner="unknown"/>
+<item id="52" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="55" cmWidth="55" year="1989" owner="unknown"/>
+<item id="53" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="55" cmWidth="55" year="1989" owner="unknown"/>
+<item id="54" title="Catalogue III" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="45" cmWidth="60" year="1989" owner="Prudential Collection, New Jersey, U.S.A"/>
+<item id="55" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="45" cmWidth="60" year="1989" owner="unknown"/>
+<item id="56" title="Allegory - Study" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="45" cmWidth="60" year="1989" owner="unknown"/>
+<item id="83" title="Allegory of Greed" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="120" cmWidth="120" year="1989" owner="unknown"/>
+<item id="84" title="Catalogue IV" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1989" owner="unknown"/>
+<item id="85" title="Catalogue V" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="153" cmWidth="183" year="1990" owner="Prudential Collection, New Jersey, U.S.A"/>
+<item id="122" title="Allegory of Deceit" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="154" cmWidth="183" year="1989" owner="unknown"/>
+<item id="201" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="181" cmWidth="181" year="1989" owner="unknown"/>
+<item id="217" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="60" cmWidth="60" year="1989" owner="unknown"/>
+<item id="228" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="45" cmWidth="60" year="1989" owner="unknown"/>
+</section>
+<section name="Thomas Bewick and other Allegories">
+<item id="63" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="45" cmWidth="45" year="1987" owner="unknown"/>
+<item id="69" title="Frontispiece (Bewick)" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1988" owner="unknown"/>
+<item id="70" title="Pugilists" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1988" owner="unknown"/>
+<item id="71" title="Frontispiece II (Bewick)" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1988" owner="unknown"/>
+<item id="72" title="Fencers" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1988" owner="unknown"/>
+<item id="94" title="Frontispiece II (Bewick)" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1988" owner="unknown"/>
+<item id="95" title="Pugilists" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1988" owner="unknown"/>
+</section>
+<section name="The World Turned Upside Down">
+<item id="209" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="60" cmWidth="45" year="1989" owner="Private Collection UK"/>
+<item id="213" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1989" owner="unknown"/>
+<item id="218" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1989" owner="unknown"/>
+<item id="221" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1989" owner="unknown"/>
+<item id="223" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1989" owner="unknown"/>
+<item id="224" title="Folly" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1992" owner="Norton Rose Collection, London"/>
+<item id="133" title="The Reversible World III" desc="Diptych" medium="Oil on Canvas" cmHeight="183" cmWidth="304" year="1989" owner="unknown"/>
+<item id="134" title="The Reversible World II" desc="Diptych" medium="Oil on Canvas" cmHeight="152" cmWidth="366" year="1990" owner="unknown"/>
+<item id="135" title="The Reversible World IV" desc="Diptych" medium="Oil on Canvas" cmHeight="152" cmWidth="150" year="1990" owner="unknown"/>
+<item id="136" title="Whichever Way I" desc="none" medium="Oil on Linen" cmHeight="150" cmWidth="150" year="1990" owner="unknown"/>
+<item id="137" title="Whichever Way II" desc="none" medium="Oil on Linen" cmHeight="150" cmWidth="150" year="1990" owner="unknown"/>
+<item id="138" title="We Three Monkeys" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="183" cmWidth="304" year="1989" owner="unknown"/>
+<item id="139" title="Whichever Way III" desc="none" medium="Oil on Linen" cmHeight="150" cmWidth="150" year="1990" owner="unknown"/>
+</section>
+<section name="Greyfriars">
+<item id="57" title="Greyfriars I" desc="none" medium="Oil and Acrylic" cmHeight="152" cmWidth="183" year="1989" owner="unknown"/>
+<item id="58" title="Greyfriars II" desc="none" medium="Oil and Acrylic" cmHeight="153" cmWidth="183" year="1989" owner="unknown"/>
+<item id="59" title="Greyfriars III" desc="none" medium="Oil and Acrylic" cmHeight="0" cmWidth="0" year="1989" owner="unknown"/>
+<item id="60" title="Greyfriars" desc="Installation, Woodlands Gallery, London" medium="Oil and Acrylic" cmHeight="0" cmWidth="0" year="1989" owner="unknown"/>
+<item id="61" title="Greyfriars" desc="Installation, Woodlands Gallery, London" medium="Oil and Acrylic" cmHeight="0" cmWidth="0" year="1989" owner="unknown"/>
+<item id="62" title="Greyfriars" desc="Installation, Woodlands Gallery, London" medium="Oil and Acrylic" cmHeight="0" cmWidth="0" year="1989" owner="unknown"/>
+</section>
+<section name="Printed Paintings">
+<item id="64" title="Muybridge" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="152" cmWidth="183" year="1992" owner="unknown"/>
+<item id="67" title="Untitled" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="152" cmWidth="183" year="1992" owner="unknown"/>
+<item id="65" title="Catalogue of Birds" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="152" cmWidth="183" year="1992" owner="unknown"/>
+<item id="66" title="Catalogue of Follies II" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="45" cmWidth="45" year="1990" owner="unknown"/>
+<item id="199" title="Starmap" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="183" cmWidth="152" year="1992" owner="unknown"/>
+<item id="200" title="Starmap" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="183" cmWidth="152" year="1992" owner="unknown"/>
+<item id="226" title="Ornament" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="183" cmWidth="152" year="1992" owner="unknown"/>
+<item id="215" title="Catalogue of Follies II" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="45" cmWidth="45" year="1992" owner="unknown"/>
+</section>
+<section name="Gold Dust Pieces">
+<item id="14" title="Gold Dust" desc="Installation Chisenhale Gallery, London" medium="Installation" cmHeight="0" cmWidth="0" year="1987" owner="unknown"/>
+<item id="73" title="Diary (Hovey)" desc="Diptych" medium="Oil on Canvas" cmHeight="150" cmWidth="90" year="1987" owner="unknown"/>
+<item id="74" title="Installation" desc="Installation Chisenhale Gallery, London" medium="Installation" cmHeight="0" cmWidth="0" year="1987" owner="unknown"/>
+<item id="75" title="Diary (Hovey)" desc="Diptych" medium="Oil on Canvas" cmHeight="150" cmWidth="90" year="1987" owner="unknown"/>
+<item id="76" title="Camp at Red Bluff Burr" desc="none" medium="Oil on Canvas" cmHeight="180" cmWidth="165" year="1987" owner="unknown"/>
+<item id="96" title="Crossing the North Platt River" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1987" owner="unknown"/>
+<item id="97" title="Sutter's Fort" desc="Diptych" medium="Oil on Canvas" cmHeight="183" cmWidth="304" year="1987" owner="unknown"/>
+<item id="98" title="Camp at Red Bluff Burr" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1987" owner="unknown"/>
+<item id="99" title="Oh Boys, I've Struck It Heavy!" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1987" owner="unknown"/>
+<item id="100" title="Perilous Descent" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1987" owner="unknown"/>
+<item id="101" title="Panning (Hovey)" desc="none" medium="Oil on Canvas" cmHeight="151" cmWidth="183" year="1987" owner="unknown"/>
+<item id="102" title="Those Evil Lookin Rattlesnake Mountains" desc="Diptych" medium="Oil on Canvas" cmHeight="150" cmWidth="90" year="1987" owner="unknown"/>
+<item id="103" title="Diary (Hovey)" desc="none" medium="Oil on Canvas" cmHeight="150" cmWidth="90" year="1987" owner="unknown"/>
+<item id="104" title="Gold Dust" desc="Installation Chisenhale Gallery, London" medium="Installation" cmHeight="0" cmWidth="0" year="1987" owner="unknown"/>
+<item id="157" title="Installation" desc="Installation Chisenhale Gallery, London" medium="Installation" cmHeight="0" cmWidth="0" year="1987" owner="unknown"/>
+<item id="162" title="Installation" desc="Installation Chisenhale Gallery, London" medium="Installation" cmHeight="0" cmWidth="0" year="1987" owner="unknown"/>
+</section>
+<section name="Histories">
+<item id="88" title="Histories I (John White)" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="152" cmWidth="183" year="1990" owner="unknown"/>
+<item id="87" title="Histories II (John White)" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="152" cmWidth="183" year="1990" owner="unknown"/>
+<item id="89" title="HistoriesIII (John White)" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1991" owner="unknown"/>
+<item id="205" title="Folly IV" desc="none" medium="Oil on Canvas" cmHeight="122" cmWidth="122" year="1994" owner="unknown"/>
+<item id="206" title="Man O'War" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="122" cmWidth="122" year="1994" owner="unknown"/>
+<item id="229" title="The Pyne Frute" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="122" cmWidth="122" year="1990" owner="unknown"/>
+</section>
+<section name="Roma">
+<item id="93" title="Roma I" desc="Diptych" medium="Oil on Canvas" cmHeight="150" cmWidth="300" year="1991" owner="unknown"/>
+<item id="68" title="Roma II" desc="Diptych" medium="Oil on Canvas" cmHeight="150" cmWidth="300" year="1991" owner="unknown"/>
+<item id="227" title="Untitled" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="85" cmWidth="85" year="1990" owner="unknown"/>
+</section>
+<section name="Ornament">
+<item id="79" title="Untitled" desc="Diptych" medium="Oil and Wax Emulsion on Canvas" cmHeight="120" cmWidth="180" year="1996" owner="unknown"/>
+<item id="80" title="Untitled" desc="Diptych" medium="Oil and Wax Emulsion on Canvas" cmHeight="45" cmWidth="60" year="1997" owner="unknown"/>
+<item id="81" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1998" owner="unknown"/>
+<item id="82" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1998" owner="unknown"/>
+<item id="106" title="Fragment" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="183" cmWidth="152" year="1995" owner="unknown"/>
+<item id="108" title="Untitled" desc="Diptych" medium="Oil on Canvas" cmHeight="45" cmWidth="75" year="1996" owner="unknown"/>
+<item id="111" title="Fragment" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="120" cmWidth="120" year="1996" owner="unknown"/>
+<item id="112" title="Untitled" desc="Diptych" medium="Oil and Acrylic on Canvas" cmHeight="183" cmWidth="304" year="1998" owner="unknown"/>
+<item id="113" title="Untitled" desc="Diptych" medium="Oil and Wax Emulsion on Canvas" cmHeight="120" cmWidth="180" year="1998" owner="unknown"/>
+<item id="116" title="Untitled" desc="Diptych" medium="Oil on Canvas" cmHeight="30" cmWidth="75" year="1998" owner="unknown"/>
+<item id="117" title="Untitled" desc="Diptych" medium="Oil on Canvas" cmHeight="30" cmWidth="75" year="1998" owner="unknown"/>
+<item id="118" title="Untitled" desc="Diptych" medium="Oil and Wax Emulsion on Canvas" cmHeight="120" cmWidth="180" year="1999" owner="unknown"/>
+<item id="119" title="Untitled" desc="Diptych" medium="Oil and Wax Emulsion on Canvas" cmHeight="120" cmWidth="150" year="1999" owner="unknown"/>
+<item id="120" title="Untitled" desc="Diptych" medium="Oil on Canvas" cmHeight="30" cmWidth="75" year="1998" owner="unknown"/>
+<item id="121" title="Untitled" desc="Diptych" medium="Oil on Canvas" cmHeight="31" cmWidth="75" year="1999" owner="unknown"/>
+<item id="123" title="Fragment" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1993" owner="unknown"/>
+<item id="124" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1993" owner="unknown"/>
+<item id="125" title="Untitled" desc="none" medium="Oil and Acrylic on Canvas" cmHeight="152" cmWidth="183" year="1993" owner="unknown"/>
+<item id="216" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1993" owner="unknown"/>
+</section>
+<section name="Starmaps and Follies">
+<item id="127" title="Traces II" desc="none" medium="Oil on Canvas" cmHeight="183" cmWidth="152" year="1993" owner="unknown"/>
+<item id="128" title="Fictions" desc="none" medium="Oil on Linen" cmHeight="183" cmWidth="168" year="1993" owner="unknown"/>
+<item id="129" title="Untitled (Star Map)" desc="none" medium="Oil on Linen" cmHeight="183" cmWidth="168" year="1993" owner="Norton Rose Collection, London"/>
+<item id="130" title="Traces" desc="none" medium="Oil on Linen" cmHeight="183" cmWidth="168" year="1993" owner="unknown"/>
+<item id="131" title="Untitled (Star Map)" desc="none" medium="Oil on Canvas" cmHeight="183" cmWidth="168" year="1993" owner="unknown"/>
+<item id="132" title="Folly" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1993" owner="Norton Rose Collection, London"/>
+<item id="198" title="Starmap" desc="none" medium="Oil and Wax Emulsion on Canvas" cmHeight="121" cmWidth="91" year="1993" owner="unknown"/>
+</section>
+<section name="New20051031">
+<item id="202" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="185" cmWidth="200" year="1987" owner="unknown"/>
+<item id="203" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="45" cmWidth="60" year="1987" owner="unknown"/>
+<item id="204" title="Untitled" desc="none" medium="Mixed Media and Collage on Canvas" cmHeight="45" cmWidth="45" year="1986" owner="unknown"/>
+<item id="207" title="Untitled" desc="none" medium="Mixed Media and Collage on Canvas" cmHeight="45" cmWidth="45" year="1987" owner="Private Collection UK"/>
+<item id="208" title="Untitled" desc="none" medium="Mixed Media and Collage on Canvas" cmHeight="45" cmWidth="45" year="1987" owner="unknown"/>
+<item id="210" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="45" cmWidth="45" year="1988" owner="unknown"/>
+<item id="214" title="Frontispiece (Bewick)" desc="none" medium="Oil on Canvas" cmHeight="152" cmWidth="183" year="1989" owner="unknown"/>
+</section>
+<section name="Current">
+
+<item id="168" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="189" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<subsection name="Current Work 1999 to 2003" alias="CurrentA">
+<item id="78" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="180" cmWidth="150" year="1999" owner="unknown"/>
+<item id="105" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="220" cmWidth="200" year="2000" owner="unknown"/>
+<item id="107" title="Its About That Time" desc="none" medium="Oil on Canvas" cmHeight="210" cmWidth="240" year="2001" owner="Private Collection UK"/>
+<item id="114" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="150" cmWidth="210" year="2002" owner="unknown"/>
+<item id="115" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="210" cmWidth="225" year="2003" owner="unknown"/>
+<item id="126" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="60" cmWidth="60" year="2003" owner="unknown"/>
+<item id="110" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="75" cmWidth="60" year="2003" owner="unknown"/>
+<item id="222" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="75" cmWidth="75" year="2003" owner="Private Collection UK"/>
+<item id="109" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="75" cmWidth="60" year="2003" owner="unknown"/>
+</subsection>
+
+<subsection name="Current Work 2003 to 2005" alias="CurrentB">
+<item id="3" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="4" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="27" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="26" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="28" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="34" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="32" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="37" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="45" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="43" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="44" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="38" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="33" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="41" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="35" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="31" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="25" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+</subsection>
+<subsection name="Surface Connections"  alias="CurrentC">
+<item id="16" title="Untitled" desc="Installation, Surface Connections" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="18" title="Untitled" desc="Installation, Surface Connections" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="20" title="Untitled" desc="Installation, Surface Connections" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="21" title="Untitled" desc="Installation, Surface Connections" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="22" title="Untitled" desc="Installation, Surface Connections" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="23" title="Untitled" desc="Installation, Surface Connections" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="24" title="Untitled" desc="Installation, Surface Connections" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+</subsection>
+<subsection name="Current Work 2005" alias="CurrentD">
+<item id="142" title="Untitled" desc="none" medium="Oil on Canvas" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="154" title="Untitled" desc="Installation, Studio" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="141" title="Untitled" desc="Installation, Studio" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="143" title="Untitled" desc="Installation, Studio" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="182" title="Untitled" desc="Installation, Studio" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+</subsection>
+<subsection name="Fabian Peake, Sharon Hall, Islington Mill Gallery, Salford 2005" alias="CurrentE">
+<item id="146" title="Untitled" desc="Installation, Islington Mill Gallery, Salford" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="147" title="Untitled" desc="Installation, Islington Mill Gallery, Salford" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="151" title="Untitled" desc="Installation, Islington Mill Gallery, Salford" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="150" title="Untitled" desc="Installation, Islington Mill Gallery, Salford" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+<item id="153" title="Untitled" desc="Installation, Islington Mill Gallery, Salford" medium="Installation" cmHeight="0" cmWidth="0" year="2005" owner="unknown"/>
+</subsection>
+</section>
+</sh>
+

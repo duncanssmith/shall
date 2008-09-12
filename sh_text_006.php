@@ -1,0 +1,6 @@
+<h2> 1993, Sacha Craddock, Castlefield Gallery catalogue essay </h2>
+<blockquote>
+<p>...in the recent paintings it becomes obvious that Hall has shifted her method. Instead of imposing a whole outlined oneness of intention upon the canvas she builds up a further layering of possible evidence through her working method. Instead of dealing absolutely by answering a question that could never be posed through painting she approaches the country's imperial past through a fragmented accumulation of drawing. An alternately faltering and fast line hints at recognisable images. These can be attractive, decisive and unclear all at the same time. This faltering and questioning thought process has by necessity lead to the rejection of a display of false clarity of vision. In the same way that Gerhard Richter paints the blur in order to show how both the personal and photographic memory are ungraspable and unreliable, Hall dissects and crosses the surface with a build up of delicate delineation.</p>
+<p>The relation between the process of thought and the activity of drawing is particularly naked here. By laying a trail across the canvas she describes a conceptual journey. The solid ground of so many 'clear' historical narratives has been replaced by an active involvment. The soil has been loosened and disrupted. New territories are explored.</p>
+</blockquote>
+

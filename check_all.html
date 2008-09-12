@@ -1,0 +1,342 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">-->
+<html>
+<head>
+<link rel="shortcut icon" href="images/spacer.gif" />
+<link rel="stylesheet" href="css/sh.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="search" content="yes">
+
+<title>Sharon Hall</title>
+
+<script src="js/sh.js"> </script>
+<script src="js/menu_functions.js"> </script>
+
+<script src="js/layer.js"> </script>
+</head>
+
+<body>
+<script type='text/javascript'>
+<!--
+Menu1=new Array("Sharon Hall","index.php","",2,20,80);
+  Menu1_1=new Array("CV","sh_000.php","",0,20,240);
+ // Menu1_2=new Array("All","sh_013.php","",0,20,240);
+ // Menu1_3=new Array("Selected","sh_014.php","",0,20,240);
+ // Menu1_4=new Array("Omitted","sh_015.php","",0,20,240);
+ // Menu1_5=new Array("Additions 1 Nov 2005","sh_016.php","",0,20,240);
+  Menu1_2=new Array("Texts","sh_023.php","",0,20,240);
+
+Menu2=new Array("Paintings","index.php","",12,0,80);
+  Menu2_1=new Array("Work since 2000","sh_012.php","",6,20,240);
+   Menu2_1_1=new Array("Grids","sh_017.php","",0,20,240);
+   Menu2_1_2=new Array("Loops","sh_018.php","",0,20,240);
+   Menu2_1_3=new Array("Surface/Connections","sh_019.php","",0,20,240);
+   Menu2_1_4=new Array("Multi Panels","sh_020.php","",0,20,240);
+   Menu2_1_5=new Array("Islington Mill","sh_021.php","",0,20,240);
+   Menu2_1_6=new Array("Figured and Combinations","sh_022.php","",0,20,240);
+  Menu2_2=new Array("Banners","sh_001.php","",0,20,240);
+  Menu2_3=new Array("Catalogues and Primers","sh_002.php","",0,20,240);
+  Menu2_4=new Array("Greyfriars","sh_003.php","",0,20,240);
+  Menu2_5=new Array("Roma","sh_004.php","",0,20,240);
+  Menu2_6=new Array("Thomas Bewick and other Allegories","sh_005.php","",0,20,240);
+  Menu2_7=new Array("Printed Paintings","sh_006.php","",0,20,240);
+  Menu2_8=new Array("Gold Dust Pieces","sh_007.php","",0,20,240);
+  Menu2_9=new Array("Ornament","sh_008.php","",0,20,240);
+  Menu2_10=new Array("Starmaps and Follies","sh_009.php","",0,20,240);
+  Menu2_11=new Array("The World Turned Upside Down","sh_010.php","",0,20,240);
+  Menu2_12=new Array("Histories","sh_011.php","",0,20,240);
+
+
+var NoOffFirstLineMenus=2;	// Number of first level items
+var LowBgColor='D4D0C8';	// Background color when mouse is not over
+var LowSubBgColor='D4D0C8';	// Background color when mouse is not over on subs
+var HighBgColor='FFFFFF';	// Background color when mouse is over
+var HighSubBgColor='FFFFFF';	// Background color when mouse is over on subs
+var FontLowColor='808080';	// Font color when mouse is not over
+var FontSubLowColor='808080';	// Font color subs when mouse is not over
+var FontHighColor='FFCC00';	// Font color when mouse is over
+var FontSubHighColor='FFCC00';	// Font color subs when mouse is over
+var BorderColor='969696';	// Border color
+var BorderSubColor='969696';	// Border color for subs
+var BorderWidth=1;		// Border width
+var BorderBtwnElmnts=1;		// Border between elements 1 or 0
+var FontFamily="Verdana, sans-serif"	        // Font family menu items
+var FontSize=9;			// Font size menu items
+var FontBold=0;			// Bold menu items 1 or 0
+var FontItalic=0;		// Italic menu items 1 or 0
+var MenuTextCentered='left';	// Item text position 'left', 'center' or 'right'
+var MenuCentered='left';	// Menu horizontal position 'left', 'center' or 'right'
+var MenuVerticalCentered='top';	// Menu vertical position 'top', 'middle','bottom' or static
+var ChildOverlap=.2;		// horizontal overlap child/ parent
+var ChildVerticalOverlap=.2;	// vertical overlap child/ parent
+var StartTop=40;		// Menu offset x coordinate
+var StartLeft=500;		// Menu offset y coordinate
+var VerCorrect=0;		// Multiple frames y correction
+var HorCorrect=0;		// Multiple frames x correction
+var LeftPaddng=3;		// Left padding
+var TopPaddng=2;		// Top padding
+var FirstLineHorizontal=0;	// SET TO 1 FOR HORIZONTAL MENU, 0 FOR VERTICAL
+var MenuFramesVertical=1;	// Frames in cols or rows 1 or 0
+var DissapearDelay=80; 		// delay before menu folds in
+var TakeOverBgColor=1;		// Menu frame takes over background color subitem frame
+var FirstLineFrame='navig';	// Frame where first level appears
+var SecLineFrame='space';	// Frame where sub levels appear
+var DocTargetFrame='space';	// Frame where target documents appear
+var TargetLoc='';		// span id for relative positioning
+var HideTop=0;			// Hide first level when loading new document 1 or 0
+var MenuWrap=1;			// enables/ disables menu wrap 1 or 0
+var RightToLeft=0;		// enables/ disables right to left unfold 1 or 0
+var UnfoldsOnClick=0;		// Level 1 unfolds onclick/ onmouseover
+var WebMasterCheck=0;		// menu tree checking on or off 1 or 0
+var ShowArrow=0;		// Uses arrow gifs when 1
+var KeepHilite=1;		// Keep selected path highligthed
+var Arrws=['tri.gif',5,10,'tridown.gif',10,5,'trileft.gif',5,10];	// Arrow source, width and height
+
+var AgntUsr=navigator.userAgent.toLowerCase();
+var DomYes=document.getElementById?1:0;
+var NavYes=AgntUsr.indexOf('mozilla')!=-1&&AgntUsr.indexOf('compatible')==-1?1:0;
+var ExpYes=AgntUsr.indexOf('msie')!=-1?1:0;
+var Opr=AgntUsr.indexOf('opera')!=-1?1:0;
+var Opr6orless=window.opera && navigator.userAgent.search(/opera.[1-6]/i)!=-1 //DynamicDrive.com added code
+var DomNav=DomYes&&NavYes?1:0;
+var DomExp=DomYes&&ExpYes?1:0;
+var Nav4=NavYes&&!DomYes&&document.layers?1:0;
+var Exp4=ExpYes&&!DomYes&&document.all?1:0;
+var PosStrt=(NavYes||ExpYes)&&!Opr6orless?1:0;
+var FrstLoc,ScLoc,DcLoc;
+var ScWinWdth,ScWinHght,FrstWinWdth,FrstWinHght;
+var ScLdAgainWin;
+var FirstColPos,SecColPos,DocColPos;
+var RcrsLvl=0;
+var FrstCreat=1,Loadd=0,Creatd=0,IniFlg,AcrssFrms=1;
+var FrstCntnr=null,CurrntOvr=null,CloseTmr=null;
+var CntrTxt,TxtClose,ImgStr;
+var Ztop=100;
+var ShwFlg=0;
+var M_StrtTp=StartTop,M_StrtLft=StartLeft;
+var StaticPos=0;
+var LftXtra=DomNav&&!Opr?LeftPaddng:0; //Changed for Opera
+var TpXtra=DomNav?TopPaddng:0;
+var M_Hide=Nav4?'hide':'hidden';
+var M_Show=Nav4?'show':'visible';
+var Par=parent.frames[0]&&FirstLineFrame!=SecLineFrame?parent:window;
+var Doc=Par.document;
+var Bod=Doc.body;
+var Trigger=NavYes&&!Opr?Par:Bod; //Changed for Opera
+
+MenuTextCentered=MenuTextCentered==1||MenuTextCentered=='center'?'center':MenuTextCentered==0||MenuTextCentered!='right'?'left':'right';
+WbMstrAlrts=["Item not defined: ","Item needs height: ","Item needs width: "];
+
+if(Trigger.onload)Dummy=Trigger.onload;
+if(DomNav||Opr)Trigger.addEventListener('load',Go,false); //Changed for Opera
+else Trigger.onload=Go;
+-->
+</script>
+
+<!-- header -->
+<div id="header">
+
+<!-- 0 --> 
+<a href="#"><img src="images/logo.gif" border="0"></a>
+<br/>
+<br/>
+<br/>
+
+<h5>Image Info</h5>
+
+<!-- end header -->
+</div>
+
+<!-- content -->
+<div id="content">
+
+<table>
+<thead>
+<tr><th>seq</th><th>image</th><th>section</th><th>image no.</th><th>title</th><th>description</th><th>medium</th><th>height cm</th><th>width cm</th><th>date</th><th>owner</th></tr>
+<tbody><tr><td>1</td><td><img src="images/64/sh_0047.jpg"></td><td>Banners</td><td>47</td><td>Banner (United Tin Plate Workers Society)</td><td></td><td>Oil on canvas</td><td>183</td><td>250</td><td>1986</td><td></td></tr>
+<tr><td>2</td><td><img src="images/64/sh_0046.jpg"></td><td>Banners</td><td>46</td><td>Banner (Dockers Union)</td><td></td><td>Oil on canvas</td><td>183</td><td>183</td><td>1987</td><td></td></tr>
+<tr><td>3</td><td><img src="images/64/sh_0219.jpg"></td><td>Banners</td><td>219</td><td>Untitled (The Sinking of the Titanic)</td><td></td><td>Mixed media on unstretched canvas</td><td>200</td><td>200</td><td>1987</td><td></td></tr>
+<tr><td>4</td><td><img src="images/64/sh_0220.jpg"></td><td>Banners</td><td>220</td><td>Untitled #2 (The Sinking of the Titanic)</td><td></td><td>Mixed media on unstretched canvas</td><td>200</td><td>200</td><td>1987</td><td></td></tr>
+<tr><td>5</td><td><img src="images/64/sh_0225.jpg"></td><td>Banners</td><td>225</td><td>Artist in her studio with Banner</td><td>Chisenhale Studios</td><td>Mixed media on unstretched canvas</td><td></td><td></td><td>1988</td><td></td></tr>
+<tr><td>6</td><td><img src="images/64/sh_0011.jpg"></td><td>Catalogues and Primers</td><td>11</td><td>Catalogue Of Follies</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1989</td><td>Private Collection UK</td></tr>
+<tr><td>7</td><td><img src="images/64/sh_0048.jpg"></td><td>Catalogues and Primers</td><td>48</td><td>Untitled</td><td></td><td>Oil and acrylic on canvas</td><td>45</td><td>45</td><td>1988</td><td></td></tr>
+<tr><td>8</td><td><img src="images/64/sh_0049.jpg"></td><td>Catalogues and Primers</td><td>49</td><td>Women's Work</td><td></td><td>Oil and acrylic on canvas</td><td>120</td><td>120</td><td>1988</td><td></td></tr>
+<tr><td>9</td><td><img src="images/64/sh_0051.jpg"></td><td>Catalogues and Primers</td><td>51</td><td>Untitled</td><td></td><td>Oil and acrylic on canvas</td><td>45</td><td>55</td><td>1988</td><td></td></tr>
+<tr><td>10</td><td><img src="images/64/sh_0052.jpg"></td><td>Catalogues and Primers</td><td>52</td><td>Untitled</td><td></td><td>Oil and acrylic on canvas</td><td>55</td><td>55</td><td>1989</td><td></td></tr>
+<tr><td>11</td><td><img src="images/64/sh_0053.jpg"></td><td>Catalogues and Primers</td><td>53</td><td>Untitled</td><td></td><td>Oil and acrylic on canvas</td><td>55</td><td>55</td><td>1989</td><td></td></tr>
+<tr><td>12</td><td><img src="images/64/sh_0054.jpg"></td><td>Catalogues and Primers</td><td>54</td><td>Catalogue III</td><td></td><td>Oil and acrylic on canvas</td><td>45</td><td>60</td><td>1989</td><td>Prudential Collection, New Jersey, USA</td></tr>
+<tr><td>13</td><td><img src="images/64/sh_0055.jpg"></td><td>Catalogues and Primers</td><td>55</td><td>Untitled</td><td></td><td>Oil and acrylic on canvas</td><td>45</td><td>60</td><td>1989</td><td></td></tr>
+<tr><td>14</td><td><img src="images/64/sh_0056.jpg"></td><td>Catalogues and Primers</td><td>56</td><td>Allegory - Study</td><td></td><td>Oil and wax emulsion on canvas</td><td>60</td><td>60</td><td>1989</td><td></td></tr>
+<tr><td>15</td><td><img src="images/64/sh_0201.jpg"></td><td>Catalogues and Primers</td><td>201</td><td>Allegory of Lust</td><td></td><td>Oil and acrylic on canvas</td><td>181</td><td>181</td><td>1989</td><td></td></tr>
+<tr><td>16</td><td><img src="images/64/sh_0084.jpg"></td><td>Catalogues and Primers</td><td>84</td><td>Catalogue (Fortuna)</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1989</td><td></td></tr>
+<tr><td>17</td><td><img src="images/64/sh_0085.jpg"></td><td>Catalogues and Primers</td><td>85</td><td>Catalogue V</td><td></td><td>Oil and acrylic on canvas</td><td>153</td><td>183</td><td>1990</td><td>Prudential Collection, New Jersey, USA</td></tr>
+<tr><td>18</td><td><img src="images/64/sh_0122.jpg"></td><td>Catalogues and Primers</td><td>122</td><td>Allegory of Deceit</td><td></td><td>Oil and acrylic on canvas</td><td>181</td><td>181</td><td>1989</td><td></td></tr>
+<tr><td>19</td><td><img src="images/64/sh_0083.jpg"></td><td>Catalogues and Primers</td><td>83</td><td>Allegory of Greed</td><td></td><td>Oil and acrylic on canvas</td><td>80</td><td>80</td><td>1989</td><td></td></tr>
+<tr><td>20</td><td><img src="images/64/sh_0217.jpg"></td><td>Catalogues and Primers</td><td>217</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>60</td><td>60</td><td>1989</td><td></td></tr>
+<tr><td>21</td><td><img src="images/64/sh_0228.jpg"></td><td>Catalogues and Primers</td><td>228</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>45</td><td>60</td><td>1989</td><td></td></tr>
+<tr><td>22</td><td><img src="images/64/sh_0063.jpg"></td><td>Thomas Bewick and other Allegories</td><td>63</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>45</td><td>45</td><td>1987</td><td></td></tr>
+<tr><td>23</td><td><img src="images/64/sh_0069.jpg"></td><td>Thomas Bewick and other Allegories</td><td>69</td><td>Frontispiece (Bewick)</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1988</td><td></td></tr>
+<tr><td>24</td><td><img src="images/64/sh_0070.jpg"></td><td>Thomas Bewick and other Allegories</td><td>70</td><td>Pugilists</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1988</td><td></td></tr>
+<tr><td>25</td><td><img src="images/64/sh_0071.jpg"></td><td>Thomas Bewick and other Allegories</td><td>71</td><td>Frontispiece II (Bewick)</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1988</td><td></td></tr>
+<tr><td>26</td><td><img src="images/64/sh_0072.jpg"></td><td>Thomas Bewick and other Allegories</td><td>72</td><td>Fencers</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1988</td><td></td></tr>
+<tr><td>27</td><td><img src="images/64/sh_0095.jpg"></td><td>Thomas Bewick and other Allegories</td><td>95</td><td>Pugilists</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1988</td><td></td></tr>
+<tr><td>28</td><td><img src="images/64/sh_0202.jpg"></td><td>Thomas Bewick and other Allegories</td><td>202</td><td>Exotics</td><td></td><td>Oil on canvas</td><td>210</td><td>240</td><td>1987</td><td></td></tr>
+<tr><td>29</td><td><img src="images/64/sh_0212.jpg"></td><td>Thomas Bewick and other Allegories</td><td>212</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>210</td><td>240</td><td>1987</td><td></td></tr>
+<tr><td>30</td><td><img src="images/64/sh_0211.jpg"></td><td>Thomas Bewick and other Allegories</td><td>211</td><td>Ladies</td><td></td><td>Oil on canvas</td><td>210</td><td>240</td><td>1987</td><td>Private Collection, UK</td></tr>
+<tr><td>31</td><td><img src="images/64/sh_0208.jpg"></td><td>Thomas Bewick and other Allegories</td><td>208</td><td>Untitled</td><td></td><td>Mixed media on canvas</td><td>30</td><td>40</td><td>1987</td><td></td></tr>
+<tr><td>32</td><td><img src="images/64/sh_0204.jpg"></td><td>Thomas Bewick and other Allegories</td><td>204</td><td>Untitled</td><td></td><td>Mixed media on canvas</td><td>30</td><td>40</td><td>1987</td><td></td></tr>
+<tr><td>33</td><td><img src="images/64/sh_0207.jpg"></td><td>Thomas Bewick and other Allegories</td><td>207</td><td>Untitled</td><td></td><td>Mixed media on canvas</td><td>30</td><td>40</td><td>1987</td><td>Private Collection, UK</td></tr>
+<tr><td>34</td><td><img src="images/64/sh_0203.jpg"></td><td>Thomas Bewick and other Allegories</td><td>203</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>30</td><td>45</td><td>1987</td><td></td></tr>
+<tr><td>35</td><td><img src="images/64/sh_0210.jpg"></td><td>Thomas Bewick and other Allegories</td><td>210</td><td>Beehive</td><td></td><td>Oil on canvas</td><td>45</td><td>45</td><td>1987</td><td>Private Collection, UK</td></tr>
+<tr><td>36</td><td><img src="images/64/sh_0214.jpg"></td><td>Thomas Bewick and other Allegories</td><td>214</td><td>Frontispiece (Bewick)</td><td></td><td>Oil on canvas</td><td>153</td><td>183</td><td>1988</td><td></td></tr>
+<tr><td>37</td><td><img src="images/64/sh_0086.jpg"></td><td>Thomas Bewick and other Allegories</td><td>86</td><td>Allegory of Deceit</td><td></td><td>Oil on canvas</td><td>153</td><td>183</td><td>1988</td><td></td></tr>
+<tr><td>38</td><td><img src="images/64/sh_0209.jpg"></td><td>The World Turned Upside Down</td><td>209</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>60</td><td>45</td><td>1989</td><td>Private Collection, UK</td></tr>
+<tr><td>39</td><td><img src="images/64/sh_0213.jpg"></td><td>The World Turned Upside Down</td><td>213</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>60</td><td>45</td><td>1989</td><td></td></tr>
+<tr><td>40</td><td><img src="images/64/sh_0218.jpg"></td><td>The World Turned Upside Down</td><td>218</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1989</td><td></td></tr>
+<tr><td>41</td><td><img src="images/64/sh_0221.jpg"></td><td>The World Turned Upside Down</td><td>221</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1989</td><td></td></tr>
+<tr><td>42</td><td><img src="images/64/sh_0223.jpg"></td><td>The World Turned Upside Down</td><td>223</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1989</td><td></td></tr>
+<tr><td>43</td><td><img src="images/64/sh_0133.jpg"></td><td>The World Turned Upside Down</td><td>133</td><td>The Reversible World III</td><td>Diptych</td><td>Oil on canvas</td><td>183</td><td>304</td><td>1989</td><td></td></tr>
+<tr><td>44</td><td><img src="images/64/sh_0134.jpg"></td><td>The World Turned Upside Down</td><td>134</td><td>The Reversible World (Who Wears the Trousers?)</td><td>Diptych</td><td>Oil on canvas</td><td>152</td><td>366</td><td>1990</td><td></td></tr>
+<tr><td>45</td><td><img src="images/64/sh_0135.jpg"></td><td>The World Turned Upside Down</td><td>135</td><td>The Reversible World (Hay Chasing the Horse)</td><td>Diptych</td><td>Oil on canvas</td><td>152</td><td>366</td><td>1990</td><td></td></tr>
+<tr><td>46</td><td><img src="images/64/sh_0136.jpg"></td><td>The World Turned Upside Down</td><td>136</td><td>Whichever Way I</td><td></td><td>Oil on linen</td><td>150</td><td>150</td><td>1990</td><td></td></tr>
+<tr><td>47</td><td><img src="images/64/sh_0137.jpg"></td><td>The World Turned Upside Down</td><td>137</td><td>Whichever Way II</td><td></td><td>Oil on linen</td><td>150</td><td>150</td><td>1990</td><td></td></tr>
+<tr><td>48</td><td><img src="images/64/sh_0138.jpg"></td><td>The World Turned Upside Down</td><td>138</td><td>We Three Monkeys</td><td></td><td>Oil and acrylic on canvas</td><td>183</td><td>304</td><td>1989</td><td></td></tr>
+<tr><td>49</td><td><img src="images/64/sh_0139.jpg"></td><td>The World Turned Upside Down</td><td>139</td><td>Whichever Way III</td><td></td><td>Oil on linen</td><td>150</td><td>150</td><td>1990</td><td></td></tr>
+<tr><td>50</td><td><img src="images/64/sh_0057.jpg"></td><td>Greyfriars</td><td>57</td><td>Greyfriars I</td><td></td><td>Oil and acrylic</td><td>152</td><td>183</td><td>1989</td><td></td></tr>
+<tr><td>51</td><td><img src="images/64/sh_0058.jpg"></td><td>Greyfriars</td><td>58</td><td>Greyfriars II</td><td></td><td>Oil and acrylic</td><td>153</td><td>183</td><td>1989</td><td></td></tr>
+<tr><td>52</td><td><img src="images/64/sh_0059.jpg"></td><td>Greyfriars</td><td>59</td><td>Greyfriars III</td><td></td><td>Oil and acrylic</td><td>153</td><td>183</td><td>1989</td><td></td></tr>
+<tr><td>53</td><td><img src="images/64/sh_0060.jpg"></td><td>Greyfriars</td><td>60</td><td>Greyfriars</td><td>Woodlands Gallery, London, installation view</td><td></td><td></td><td></td><td>1989</td><td></td></tr>
+<tr><td>54</td><td><img src="images/64/sh_0061.jpg"></td><td>Greyfriars</td><td>61</td><td>Greyfriars</td><td>Woodlands Gallery, London, installation view</td><td></td><td></td><td></td><td>1989</td><td></td></tr>
+<tr><td>55</td><td><img src="images/64/sh_0062.jpg"></td><td>Greyfriars</td><td>62</td><td>Greyfriars and Allegory of Deceit</td><td>Woodlands Gallery, London, installation view</td><td></td><td></td><td></td><td>1989</td><td></td></tr>
+<tr><td>56</td><td><img src="images/64/sh_0064.jpg"></td><td>Printed Paintings</td><td>64</td><td>Muybridge</td><td></td><td>Oil and wax emulsion on canvas</td><td>152</td><td>183</td><td>1992</td><td></td></tr>
+<tr><td>57</td><td><img src="images/64/sh_0067.jpg"></td><td>Printed Paintings</td><td>67</td><td>Untitled</td><td></td><td>Oil and wax emulsion on canvas</td><td>152</td><td>183</td><td>1992</td><td></td></tr>
+<tr><td>58</td><td><img src="images/64/sh_0065.jpg"></td><td>Printed Paintings</td><td>65</td><td>Catalogue of Birds</td><td></td><td>Oil and wax emulsion on canvas</td><td>152</td><td>183</td><td>1992</td><td></td></tr>
+<tr><td>59</td><td><img src="images/64/sh_0066.jpg"></td><td>Printed Paintings</td><td>66</td><td>Catalogue of Follies II</td><td></td><td>Oil and wax emulsion on canvas</td><td>45</td><td>45</td><td>1990</td><td></td></tr>
+<tr><td>60</td><td><img src="images/64/sh_0199.jpg"></td><td>Printed Paintings</td><td>199</td><td>Starmap</td><td></td><td>Oil and wax emulsion on canvas</td><td>152</td><td>183</td><td>1992</td><td></td></tr>
+<tr><td>61</td><td><img src="images/64/sh_0200.jpg"></td><td>Printed Paintings</td><td>200</td><td>Starmap</td><td></td><td>Oil and wax emulsion on canvas</td><td>183</td><td>152</td><td>1992</td><td></td></tr>
+<tr><td>62</td><td><img src="images/64/sh_0226.jpg"></td><td>Printed Paintings</td><td>226</td><td>Ornament</td><td></td><td>Oil and wax emulsion on canvas</td><td>183</td><td>152</td><td>1992</td><td></td></tr>
+<tr><td>63</td><td><img src="images/64/sh_0215.jpg"></td><td>Printed Paintings</td><td>215</td><td>Catalogue of Follies II</td><td></td><td>Oil and wax emulsion on canvas</td><td>45</td><td>45</td><td>1992</td><td></td></tr>
+<tr><td>64</td><td><img src="images/64/sh_0014.jpg"></td><td>Gold Dust Pieces</td><td>14</td><td>Gold Dust</td><td>Chisenhale Gallery, London, installation view</td><td></td><td></td><td></td><td>1987</td><td></td></tr>
+<tr><td>65</td><td><img src="images/64/sh_0073.jpg"></td><td>Gold Dust Pieces</td><td>73</td><td>Panning For Gold (Hovey)</td><td>Diptych</td><td>Oil on canvas</td><td>150</td><td>90</td><td>1987</td><td></td></tr>
+<tr><td>66</td><td><img src="images/64/sh_0075.jpg"></td><td>Gold Dust Pieces</td><td>75</td><td>Diary (Hovey)</td><td>Diptych</td><td>Oil on canvas</td><td>150</td><td>90</td><td>1987</td><td></td></tr>
+<tr><td>67</td><td><img src="images/64/sh_0096.jpg"></td><td>Gold Dust Pieces</td><td>96</td><td>Crossing the North Platt River (Bruff)</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1987</td><td></td></tr>
+<tr><td>68</td><td><img src="images/64/sh_0097.jpg"></td><td>Gold Dust Pieces</td><td>97</td><td>Sutter's Fort 1869 (Hovey)</td><td>Diptych</td><td>Oil on canvas</td><td>183</td><td>304</td><td>1987</td><td></td></tr>
+<tr><td>69</td><td><img src="images/64/sh_0098.jpg"></td><td>Gold Dust Pieces</td><td>98</td><td>Camp at Red Bluff Burr (Hovey)</td><td></td><td>Oil on canvas</td><td>183</td><td>150</td><td>1987</td><td></td></tr>
+<tr><td>70</td><td><img src="images/64/sh_0099.jpg"></td><td>Gold Dust Pieces</td><td>99</td><td>Oh Boys, I've Struck It Heavy!</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1987</td><td></td></tr>
+<tr><td>71</td><td><img src="images/64/sh_0100.jpg"></td><td>Gold Dust Pieces</td><td>100</td><td>Perilous Descent (Bruff)</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1987</td><td></td></tr>
+<tr><td>72</td><td><img src="images/64/sh_0101.jpg"></td><td>Gold Dust Pieces</td><td>101</td><td>Panning For Gold (Hovey)</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1987</td><td></td></tr>
+<tr><td>73</td><td><img src="images/64/sh_0102.jpg"></td><td>Gold Dust Pieces</td><td>102</td><td>Those Evil Lookin' Rattlesnake Mountains (Bruff)</td><td>Diptych</td><td>Oil on canvas</td><td>152</td><td>183</td><td>1987</td><td></td></tr>
+<tr><td>74</td><td><img src="images/64/sh_0157.jpg"></td><td>Gold Dust Pieces</td><td>157</td><td>Installation</td><td>Chisenhale Gallery, London, installation view</td><td></td><td></td><td></td><td>1987</td><td></td></tr>
+<tr><td>75</td><td><img src="images/64/sh_0088.jpg"></td><td>Histories</td><td>88</td><td>Histories (John White)</td><td></td><td>Oil and wax emulsion on canvas</td><td>152</td><td>183</td><td>1990</td><td></td></tr>
+<tr><td>76</td><td><img src="images/64/sh_0089.jpg"></td><td>Histories</td><td>89</td><td>Histories III (John White)</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1991</td><td></td></tr>
+<tr><td>77</td><td><img src="images/64/sh_0205.jpg"></td><td>Histories</td><td>205</td><td>Folly: Patagonian Men</td><td></td><td>Oil on canvas</td><td>122</td><td>122</td><td>1994</td><td></td></tr>
+<tr><td>78</td><td><img src="images/64/sh_0206.jpg"></td><td>Histories</td><td>206</td><td>Man O'War</td><td></td><td>Oil and wax emulsion on canvas</td><td>122</td><td>122</td><td>1994</td><td></td></tr>
+<tr><td>79</td><td><img src="images/64/sh_0229.jpg"></td><td>Histories</td><td>229</td><td>The Pyne Frute(John White)</td><td></td><td>Oil and wax emulsion on canvas</td><td>122</td><td>122</td><td>1990</td><td></td></tr>
+<tr><td>80</td><td><img src="images/64/sh_0093.jpg"></td><td>Roma</td><td>93</td><td>Roma I</td><td>Diptych</td><td>Oil and wax emulsion on canvas</td><td>150</td><td>300</td><td>1991</td><td></td></tr>
+<tr><td>81</td><td><img src="images/64/sh_0068.jpg"></td><td>Roma</td><td>68</td><td>Roma II</td><td>Diptych</td><td>Oil and wax emulsion on canvas</td><td>150</td><td>300</td><td>1991</td><td></td></tr>
+<tr><td>82</td><td><img src="images/64/sh_0227.jpg"></td><td>Roma</td><td>227</td><td>Untitled</td><td></td><td>Oil and wax emulsion on canvas</td><td>85</td><td>85</td><td>1991</td><td></td></tr>
+<tr><td>83</td><td><img src="images/64/sh_0079.jpg"></td><td>Ornament</td><td>79</td><td>Untitled</td><td>Diptych</td><td>Oil and wax emulsion on canvas</td><td>120</td><td>180</td><td>1996</td><td></td></tr>
+<tr><td>84</td><td><img src="images/64/sh_0080.jpg"></td><td>Ornament</td><td>80</td><td>Untitled</td><td>Diptych</td><td>Oil and wax emulsion on canvas</td><td>70</td><td>90</td><td>1997</td><td></td></tr>
+<tr><td>85</td><td><img src="images/64/sh_0081.jpg"></td><td>Ornament</td><td>81</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>183</td><td>152</td><td>1998</td><td></td></tr>
+<tr><td>86</td><td><img src="images/64/sh_0082.jpg"></td><td>Ornament</td><td>82</td><td>Untitled</td><td></td><td>Oil and acrylic on canvas</td><td>183</td><td>152</td><td>1998</td><td></td></tr>
+<tr><td>87</td><td><img src="images/64/sh_0106.jpg"></td><td>Ornament</td><td>106</td><td>Fragment</td><td></td><td>Oil and wax emulsion on canvas</td><td>183</td><td>152</td><td>1995</td><td></td></tr>
+<tr><td>88</td><td><img src="images/64/sh_0108.jpg"></td><td>Ornament</td><td>108</td><td>Untitled</td><td>Diptych</td><td>Oil on canvas</td><td>32</td><td>75</td><td>1996</td><td></td></tr>
+<tr><td>89</td><td><img src="images/64/sh_0111.jpg"></td><td>Ornament</td><td>111</td><td>Fragment</td><td></td><td>Oil and wax emulsion on canvas</td><td>120</td><td>120</td><td>1996</td><td></td></tr>
+<tr><td>90</td><td><img src="images/64/sh_0112.jpg"></td><td>Ornament</td><td>112</td><td>Untitled</td><td>Diptych</td><td>Oil and acrylic on canvas</td><td>183</td><td>304</td><td>1998</td><td></td></tr>
+<tr><td>91</td><td><img src="images/64/sh_0113.jpg"></td><td>Ornament</td><td>113</td><td>Untitled</td><td>Diptych</td><td>Oil and wax emulsion on canvas</td><td>120</td><td>180</td><td>1998</td><td></td></tr>
+<tr><td>92</td><td><img src="images/64/sh_0116.jpg"></td><td>Ornament</td><td>116</td><td>Untitled</td><td>Diptych</td><td>Oil on canvas</td><td>30</td><td>75</td><td>1998</td><td></td></tr>
+<tr><td>93</td><td><img src="images/64/sh_0117.jpg"></td><td>Ornament</td><td>117</td><td>Untitled</td><td>Diptych</td><td>Oil on canvas</td><td>30</td><td>75</td><td>1998</td><td></td></tr>
+<tr><td>94</td><td><img src="images/64/sh_0118.jpg"></td><td>Ornament</td><td>118</td><td>Untitled</td><td>Diptych</td><td>Oil and wax emulsion on canvas</td><td>120</td><td>180</td><td>1999</td><td></td></tr>
+<tr><td>95</td><td><img src="images/64/sh_0119.jpg"></td><td>Ornament</td><td>119</td><td>Untitled</td><td>Diptych</td><td>Oil and wax emulsion on canvas</td><td>120</td><td>150</td><td>1999</td><td></td></tr>
+<tr><td>96</td><td><img src="images/64/sh_0120.jpg"></td><td>Ornament</td><td>120</td><td>Untitled</td><td>Diptych</td><td>Oil on canvas</td><td>30</td><td>75</td><td>1998</td><td></td></tr>
+<tr><td>97</td><td><img src="images/64/sh_0121.jpg"></td><td>Ornament</td><td>121</td><td>Untitled</td><td>Diptych</td><td>Oil on canvas</td><td>31</td><td>75</td><td>1999</td><td></td></tr>
+<tr><td>98</td><td><img src="images/64/sh_0123.jpg"></td><td>Ornament</td><td>123</td><td>Fragment</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1993</td><td></td></tr>
+<tr><td>99</td><td><img src="images/64/sh_0124.jpg"></td><td>Ornament</td><td>124</td><td>Ornament I</td><td></td><td>Oil and acrylic on canvas</td><td>152</td><td>183</td><td>1993</td><td></td></tr>
+<tr><td>100</td><td><img src="images/64/sh_0125.jpg"></td><td>Ornament</td><td>125</td><td>Diptych</td><td></td><td>Oil on canvas</td><td>32</td><td>75</td><td>1993</td><td></td></tr>
+<tr><td>101</td><td><img src="images/64/sh_0216.jpg"></td><td>Ornament</td><td>216</td><td>Ornament III</td><td></td><td>Oil on canvas</td><td>175</td><td>183</td><td>1993</td><td></td></tr>
+<tr><td>102</td><td><img src="images/64/sh_0078.jpg"></td><td>Ornament</td><td>78</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>183</td><td>152</td><td>1999</td><td></td></tr>
+<tr><td>103</td><td><img src="images/64/sh_0127.jpg"></td><td>Starmaps and Follies</td><td>127</td><td>Traces II</td><td></td><td>Oil on canvas</td><td>183</td><td>152</td><td>1993</td><td></td></tr>
+<tr><td>104</td><td><img src="images/64/sh_0128.jpg"></td><td>Starmaps and Follies</td><td>128</td><td>Fictions</td><td></td><td>Oil on linen</td><td>183</td><td>168</td><td>1993</td><td></td></tr>
+<tr><td>105</td><td><img src="images/64/sh_0129.jpg"></td><td>Starmaps and Follies</td><td>129</td><td>Untitled (Star Map)</td><td></td><td>Oil on linen</td><td>183</td><td>168</td><td>1993</td><td>Norton Rose Collection, London</td></tr>
+<tr><td>106</td><td><img src="images/64/sh_0130.jpg"></td><td>Starmaps and Follies</td><td>130</td><td>Traces</td><td></td><td>Oil on linen</td><td>183</td><td>168</td><td>1993</td><td></td></tr>
+<tr><td>107</td><td><img src="images/64/sh_0131.jpg"></td><td>Starmaps and Follies</td><td>131</td><td>Untitled (Star Map)</td><td></td><td>Oil on canvas</td><td>183</td><td>168</td><td>1993</td><td></td></tr>
+<tr><td>108</td><td><img src="images/64/sh_0132.jpg"></td><td>Starmaps and Follies</td><td>132</td><td>Folly</td><td></td><td>Oil on canvas</td><td>152</td><td>183</td><td>1993</td><td>Norton Rose Collection, London</td></tr>
+<tr><td>109</td><td><img src="images/64/sh_0198.jpg"></td><td>Starmaps and Follies</td><td>198</td><td>Starmap</td><td></td><td>Oil and wax emulsion on canvas</td><td>121</td><td>91</td><td>1993</td><td></td></tr>
+<tr><td>110</td><td><img src="images/64/sh_0105.jpg"></td><td>Grids </td><td>105</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>220</td><td>200</td><td>2000</td><td></td></tr>
+<tr><td>111</td><td><img src="images/64/sh_0107.jpg"></td><td>Grids</td><td>107</td><td>Its About That Time</td><td></td><td>Oil on canvas</td><td>210</td><td>240</td><td>2001</td><td>Private Collection, UK</td></tr>
+<tr><td>112</td><td><img src="images/64/sh_0114.jpg"></td><td>Grids</td><td>114</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>150</td><td>210</td><td>2002</td><td></td></tr>
+<tr><td>113</td><td><img src="images/64/sh_0115.jpg"></td><td>Grids</td><td>115</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>210</td><td>225</td><td>2003</td><td></td></tr>
+<tr><td>114</td><td><img src="images/64/sh_0126.jpg"></td><td>Grids</td><td>126</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>60</td><td>60</td><td>2003</td><td></td></tr>
+<tr><td>115</td><td><img src="images/64/sh_0110.jpg"></td><td>Grids</td><td>110</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>75</td><td>60</td><td>2003</td><td></td></tr>
+<tr><td>116</td><td><img src="images/64/sh_0222.jpg"></td><td>Grids</td><td>222</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>75</td><td>60</td><td>2003</td><td>Private Collection, UK</td></tr>
+<tr><td>117</td><td><img src="images/64/sh_0109.jpg"></td><td>Grids</td><td>109</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>75</td><td>60</td><td>2003</td><td></td></tr>
+<tr><td>118</td><td><img src="images/64/sh_0003.jpg"></td><td>Loops </td><td>3</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>65</td><td>65</td><td>2003</td><td></td></tr>
+<tr><td>119</td><td><img src="images/64/sh_0004.jpg"></td><td>Loops</td><td>4</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>65</td><td>65</td><td>2003</td><td></td></tr>
+<tr><td>120</td><td><img src="images/64/sh_0027.jpg"></td><td>Loops</td><td>27</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>65</td><td>65</td><td>2003</td><td></td></tr>
+<tr><td>121</td><td><img src="images/64/sh_0026.jpg"></td><td>Loops</td><td>26</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>40</td><td>30</td><td>2003</td><td></td></tr>
+<tr><td>122</td><td><img src="images/64/sh_0028.jpg"></td><td>Loops</td><td>28</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>40</td><td>30</td><td>2003</td><td></td></tr>
+<tr><td>123</td><td><img src="images/64/sh_0034.jpg"></td><td>Loops</td><td>34</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>30</td><td>40</td><td>2003</td><td></td></tr>
+<tr><td>124</td><td><img src="images/64/sh_0032.jpg"></td><td>Loops</td><td>32</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>40</td><td>30</td><td>2003</td><td></td></tr>
+<tr><td>125</td><td><img src="images/64/sh_0037.jpg"></td><td>Loops</td><td>37</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>40</td><td>30</td><td>2003</td><td></td></tr>
+<tr><td>126</td><td><img src="images/64/sh_0045.jpg"></td><td>Loops</td><td>45</td><td>Untitled</td><td>Studio installation</td><td></td><td></td><td></td><td>2003</td><td></td></tr>
+<tr><td>127</td><td><img src="images/64/sh_0043.jpg"></td><td>Loops</td><td>43</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>90</td><td>60</td><td>2003</td><td></td></tr>
+<tr><td>128</td><td><img src="images/64/sh_0044.jpg"></td><td>Loops</td><td>44</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>75</td><td>60</td><td>2005</td><td></td></tr>
+<tr><td>129</td><td><img src="images/64/sh_0038.jpg"></td><td>Loops</td><td>38</td><td>Untitled</td><td></td><td>Oil on linen</td><td>90</td><td>90</td><td>2004</td><td></td></tr>
+<tr><td>130</td><td><img src="images/64/sh_0033.jpg"></td><td>Loops</td><td>33</td><td>Untitled</td><td></td><td>Oil on linen</td><td>150</td><td>180</td><td>2003</td><td></td></tr>
+<tr><td>131</td><td><img src="images/64/sh_0041.jpg"></td><td>Loops</td><td>41</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>180</td><td>150</td><td>2003</td><td></td></tr>
+<tr><td>132</td><td><img src="images/64/sh_0035.jpg"></td><td>Loops</td><td>35</td><td>Untitled</td><td>Hyde Bank Mill, installation view</td><td>Oil on canvas</td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>133</td><td><img src="images/64/sh_0031.jpg"></td><td>Loops</td><td>31</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>180</td><td>150</td><td>2004</td><td></td></tr>
+<tr><td>134</td><td><img src="images/64/sh_0025.jpg"></td><td>Loops</td><td>25</td><td>Untitled</td><td></td><td>Oil on linen</td><td>180</td><td>150</td><td>2004</td><td></td></tr>
+<tr><td>135</td><td><img src="images/64/sh_0158.jpg"></td><td>Loops</td><td>158</td><td>Untitled</td><td></td><td>Oil and wax on canvas</td><td>60</td><td>45</td><td>2004</td><td></td></tr>
+<tr><td>136</td><td><img src="images/64/sh_0159.jpg"></td><td>Loops</td><td>159</td><td>Untitled</td><td></td><td>Oil and wax on canvas</td><td>60</td><td>45</td><td>2004</td><td></td></tr>
+<tr><td>137</td><td><img src="images/64/sh_0160.jpg"></td><td>Loops</td><td>160</td><td>Untitled</td><td></td><td>Oil and wax on canvas</td><td>60</td><td>45</td><td>2004</td><td></td></tr>
+<tr><td>138</td><td><img src="images/64/sh_0016.jpg"></td><td>Surface Connections  </td><td>16</td><td>Untitled</td><td>Surface Connections, installation view</td><td></td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>139</td><td><img src="images/64/sh_0018.jpg"></td><td>Surface Connections</td><td>18</td><td>Untitled</td><td>Surface Connections, installation view</td><td></td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>140</td><td><img src="images/64/sh_0020.jpg"></td><td>Surface Connections</td><td>20</td><td>Untitled</td><td>Surface Connections, installation view</td><td></td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>141</td><td><img src="images/64/sh_0021.jpg"></td><td>Surface Connections</td><td>21</td><td>Untitled</td><td>Surface Connections, installation view</td><td></td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>142</td><td><img src="images/64/sh_0022.jpg"></td><td>Surface Connections</td><td>22</td><td>Untitled</td><td>Surface Connections, installation view</td><td></td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>143</td><td><img src="images/64/sh_0023.jpg"></td><td>Surface Connections</td><td>23</td><td>Untitled</td><td>Surface Connections, installation view</td><td></td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>144</td><td><img src="images/64/sh_0024.jpg"></td><td>Surface Connections</td><td>24</td><td>Untitled</td><td>Surface Connections, installation view</td><td></td><td></td><td></td><td>2004</td><td></td></tr>
+<tr><td>145</td><td><img src="images/64/sh_0168.jpg"></td><td>Multi Panels</td><td>168</td><td>Diamond</td><td></td><td>Oil on canvas</td><td>35</td><td>40</td><td>2005</td><td></td></tr>
+<tr><td>146</td><td><img src="images/64/sh_0142.jpg"></td><td>Multi Panels </td><td>142</td><td>Diamond</td><td></td><td>Oil and wax on linen</td><td>35</td><td>45</td><td>2005</td><td></td></tr>
+<tr><td>147</td><td><img src="images/64/sh_0154.jpg"></td><td>Multi Panels</td><td>154</td><td>Untitled</td><td>Five installed panels</td><td>Oil and wax on canvas </td><td>30</td><td>150</td><td>2005</td><td></td></tr>
+<tr><td>148</td><td><img src="images/64/sh_0141.jpg"></td><td>Multi Panels</td><td>141</td><td>Untitled</td><td>Three installed panels</td><td>Oil on linen</td><td>240</td><td>90</td><td>2005</td><td></td></tr>
+<tr><td>149</td><td><img src="images/64/sh_0143.jpg"></td><td>Multi Panels</td><td>143</td><td>Untitled</td><td>Studio installation</td><td></td><td></td><td></td><td>2005</td><td></td></tr>
+<tr><td>150</td><td><img src="images/64/sh_0182.jpg"></td><td>Multi Panels</td><td>182</td><td>Studio at Islington Mill</td><td>Studio installation</td><td></td><td></td><td></td><td>2005</td><td></td></tr>
+<tr><td>151</td><td><img src="images/64/sh_0146.jpg"></td><td>Islington Mill </td><td>146</td><td>Untitled</td><td>Islington Mill Gallery, installation view</td><td></td><td></td><td></td><td>2005</td><td></td></tr>
+<tr><td>152</td><td><img src="images/64/sh_0147.jpg"></td><td>Islington Mill</td><td>147</td><td>Untitled</td><td>Islington Mill Gallery, installation view</td><td></td><td></td><td></td><td>2005</td><td></td></tr>
+<tr><td>153</td><td><img src="images/64/sh_0151.jpg"></td><td>Islington Mill</td><td>151</td><td>Untitled</td><td>Islington Mill Gallery, installation view</td><td></td><td></td><td></td><td>2005</td><td></td></tr>
+<tr><td>154</td><td><img src="images/64/sh_0150.jpg"></td><td>Islington Mill</td><td>150</td><td>Untitled</td><td>Islington Mill Gallery, installation view</td><td></td><td></td><td></td><td>2005</td><td></td></tr>
+<tr><td>155</td><td><img src="images/64/sh_0153.jpg"></td><td>Islington Mill</td><td>153</td><td>Untitled</td><td>Islington Mill Gallery, installation view</td><td></td><td></td><td></td><td>2005</td><td></td></tr>
+<tr><td>156</td><td><img src="images/64/sh_0239.jpg"></td><td>Combinations</td><td>239</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>60</td><td>60</td><td>2005</td><td></td></tr>
+<tr><td>157</td><td><img src="images/64/sh_0238.jpg"></td><td>Combinations</td><td>238</td><td>Untitled</td><td></td><td>Oil and wax on canvas</td><td>60</td><td>30</td><td>2006</td><td></td></tr>
+<tr><td>158</td><td><img src="images/64/sh_0230.jpg"></td><td>Combinations</td><td>230</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>45</td><td>50</td><td>2006</td><td></td></tr>
+<tr><td>159</td><td><img src="images/64/sh_0231.jpg"></td><td>Combinations</td><td>231</td><td>Untitled</td><td></td><td>Oil on canvas</td><td>45</td><td>45</td><td>2006</td><td></td></tr>
+<tr><td>160</td><td><img src="images/64/sh_0232.jpg"></td><td>Combinations</td><td>232</td><td>Untitled</td><td></td><td>Oil on linen</td><td>45</td><td>45</td><td>2006</td><td></td></tr>
+<tr><td>161</td><td><img src="images/64/sh_0233.jpg"></td><td>Combinations</td><td>233</td><td>Untitled</td><td></td><td>Oil on linen</td><td>60</td><td>60</td><td>2006</td><td></td></tr>
+<tr><td>162</td><td><img src="images/64/sh_0235.jpg"></td><td>Combinations</td><td>235</td><td>Diptych #1</td><td></td><td>Oil on canvas</td><td>50</td><td>90</td><td>2006</td><td></td></tr>
+<tr><td>163</td><td><img src="images/64/sh_0234.jpg"></td><td>Combinations</td><td>234</td><td>Diptych #2</td><td></td><td>Oil on canvas</td><td>50</td><td>90</td><td>2006</td><td></td></tr>
+<tr><td>164</td><td><img src="images/64/sh_0236.jpg"></td><td>Combinations</td><td>236</td><td>Stacked Paintings</td><td></td><td>Oil on linen</td><td>90</td><td>225</td><td>2006</td><td></td></tr>
+<tr><td>165</td><td><img src="images/64/sh_0240.jpg"></td><td>Combinations</td><td>240</td><td>Untitled</td><td></td><td>Oil on linen</td><td>120</td><td>145</td><td>2006</td><td></td></tr>
+<tr><td>166</td><td><img src="images/64/sh_0237.jpg"></td><td>Combinations</td><td>237</td><td>Diptych #3</td><td></td><td>Oil on linen</td><td>150</td><td>270</td><td>2006</td><td></td></tr>
+</tbody>
+</table>
+<!-- end content -->
+</div>
+<div id="sidebar">
+	</div>
+
+<!-- footer -->
+<div id="footer">
+
+<a href="" class="capt">Wednesday 05 April 2006</a>
+	|
+
+<a href="mailto:itingdesign@googlemail.com" class="capt">page design &copy; iting 2006</a>
+
+<!-- end footer -->
+</div>
+</body>
+</html>
+

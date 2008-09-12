@@ -1,0 +1,69 @@
+@import "layout.css";
+@import "typography.css";
+
+
+div.imageBox 
+{
+	border: 0px ridge #6a6a8a;
+	font-family:verdana,sans-serif;
+	margin:4px;
+	padding:4px;
+	margin-left:100px;
+}
+
+div.imageBoxInside
+{
+	border: 0px ridge #909090;
+	background: #ffffff;
+	font-family:verdana,sans-serif;
+	margin:4px;
+}
+
+div.box1 
+{
+	border: 0px ridge #6a6a8a;
+	width: 450px;
+	background: #ffffff;
+	font-family:verdana,sans-serif;
+}
+
+div.leftColumn 
+{
+	padding: 0px;
+	width: 80px;
+	background: #aaaaaa;
+	font-family:verdana,sans-serif;
+}
+
+div.box2 
+{
+	border: 1px ridge #6a6a8a;
+	padding: 12px;
+	width: 100px;
+	background: #e0c00a;
+}
+
+div.box3 
+{
+	border: 0px ridge #6a6a8a;
+	padding: 6px;
+	width: 100%;
+	background: #fcfcfc;
+}
+
+div.box4 
+{
+	border: 0px ridge #6a6a8a;
+	padding: 1px;
+	width: 100%;
+	background: #fff;
+}
+
+div.datebox
+{
+	border: 0px;
+	padding: 66px;
+	width: 100%;
+	background: #eff;
+}
+

@@ -1,0 +1,108 @@
+body{
+	font-family: verdana,tahoma,arial, sans-serif;
+	font-size: 8pt;
+	color: #666;
+	background: white;
+}
+
+#header {
+	padding: 20px;
+	background: #fff;
+	border-bottom: solid 1px gray;
+}
+
+#content {
+	border:solid 0px blue;
+	padding:10px;
+	padding-left:40px;
+	float: left;
+	width: 480px;
+}
+
+#sidebar {
+	border:solid 0px gray;
+	margin-left:64%;
+	margin-top:10px;
+	padding:10px;
+	background: #fff;
+}
+
+#footer {
+	clear: left;
+	border-top:solid 1px gray;
+	padding: 20px;
+	background: #fff;
+}
+
+#imglayout1{
+	border:solid 0px silver;
+}
+#sectiontext{
+	border:solid 0px silver;
+}
+#imgmain{
+	border:solid 0px red;
+	height:328px;
+	width:528px;
+	padding:10px;
+}
+
+#imgarray{
+	border:solid 0px green;
+}
+#layerContent
+{
+	border:solid 0px green;
+}
+
+#theLayer{
+	position:absolute;
+	top:340px;
+	left:410px;
+	width:18em;
+	visibility:hidden;
+	border:solid 0px gray;
+	cursor:move;
+}
+#theShowButton{
+	position:absolute;
+	top:360px;
+	left:496px;
+	width:8em;
+	border:solid 0px gray;
+
+}
+#soundbite
+{
+	position:relative;
+	border: solid 1px silver;
+	margin: 1em;
+	padding:1em;
+	background:#fff;
+	width:400px;
+	float: right;
+	
+}
+#soundbite p{
+	font-size:8pt;
+}
+div#soundbite2
+{
+	position:absolute;
+	border: solid 1px silver;
+	margin: 1em;
+	padding:1em;
+	background:#fff;
+	width:300px;
+	left: 500px;
+	top:500px;
+	
+}
+#soundbite2 p{
+	font-size:7pt;
+}
+.it{
+	color:gray;
+	font-weight:bold;
+	border:solid 0px red;
+}
