@@ -101,31 +101,35 @@ if($xmlOn){
 	}
 	else if($thisPage=="sh_017.php"){
 		$section="CurrentA";
-		$layout="layout3";
+		$layout="layout2";
 	}
 	else if($thisPage=="sh_018.php"){
 		$section="CurrentB";
-		$layout="layout3";
+		$layout="layout2";
 	}
 	else if($thisPage=="sh_019.php"){
 		$section="CurrentC";
-		$layout="layout3";
+		$layout="layout2";
 	}
 	else if($thisPage=="sh_020.php"){
 		$section="CurrentD";
-		$layout="layout3";
+		$layout="layout2";
 	}
 	else if($thisPage=="sh_021.php"){
 		$section="CurrentE";
-		$layout="layout3";
+		$layout="layout2";
 	}
 	else if($thisPage=="sh_022.php"){
 		$section="CurrentF";
-		$layout="layout3";
+		$layout="layout2";
 	}
 	else if($thisPage=="sh_023.php"){
 		$section="Texts";
 		$layout="layout1";
+	}
+	else if($thisPage=="sh_024.php"){
+		$section="CurrentG";
+		$layout="layout4";
 	}
 	else {;}
 

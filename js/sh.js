@@ -60,7 +60,7 @@ function createZoomLayer(i){
 function createlayer(i){
 	var current = document.getElementById("layerContent");
 	var parent = current.parentNode;
-	var notify_url = "<input type=\"hidden\" name=\"notify_url\" value=\"http://www.rebeccaandpenelope.com/pp_php_ipn.php\">";
+	var notify_url = "<input type=\"hidden\" name=\"notify_url\" value=\"http://www.sharonhall.co.uk/\">";
 	notify_url = "";
 	var c = document.createElement("div");
 	
@@ -89,7 +89,7 @@ function isblank(s){
 	return true;
 }
 
-function verify(f){
+function verify(f){
 	var msg;
 	var empty_fields="";
 	var errors = "";
@@ -315,13 +315,14 @@ function pop_zoom_2(section,size,index)
 	var height=size+=80;
 	var width=size+=80;
 	var namex='zoom'+rnd;
-	var topline="<h4>Sharon Hall "+section+" </h4>\n";
+	var topline="<h4>Sharon Hall " + section + " </h4>\n";
 	var left=rnd/10;
 	var top=rnd/10;
   	var generator=window.open('',namex,'height='+height+',width='+width+',left='+left+',top='+top+',resizable=yes,scrollbars=no,toolbar=no,status=yes');
 	if (window.focus) {generator.focus();}
-  
-  	generator.document.write('<html>\n<head>\n<title> </title>\n');
+
+ 
+  generator.document.write('<html>\n<head>\n<title>' + index + ' ' + section + '</title>\n');
 	generator.document.write('<link rel="stylesheet" href="css/sh.css">\n');
 	generator.document.write('</head>\n<body>\n');
 	//generator.document.write( topline );
@@ -353,17 +354,14 @@ function pop_zoom(section,size)
   	var generator=window.open('',namex,'height='+height+',width='+width+',left='+left+',top='+top+',resizable=yes,scrollbars=no,toolbar=no,status=yes');
 	if (window.focus) {generator.focus();}
   
-  	generator.document.write('<html>\n<head>\n<title> </title>\n');
+ 	generator.document.write('<html>\n<head>\n<title>Sharon Hall '+section+'</title>\n');
 	generator.document.write('<link rel="stylesheet" href="css/sh.css">\n');
 	generator.document.write('</head>\n<body>\n');
 	//generator.document.write( topline );
 	
-	generator.document.write('<p>');
-	//generator.document.write(namex);
-	generator.document.write('</p>');
-	generator.document.write('<img src=\"');
-	generator.document.write( image );
-	generator.document.write('"/>\n');
+	//generator.document.write('<p>' + namex + '</p>');
+	generator.document.write('<img src=\"'+ image + '"/>\n');
+	//generator.document.write('<p>\n</p>');
 	generator.document.write('<p><a href="javascript:self.close()">&nbsp;<img src="images/close_window.gif" border="0"></a></p>\n');
 	generator.document.write('</body>\n</html>\n');
 	generator.document.close();

@@ -1,4 +1,5 @@
 <h5>Awards</h5>
+<p>2011 Manchester Metropolitan University Research Award</p>
 <p>2005/6 Manchester Metropolitan University Research Awards</p>
 <p>1997 Manchester Metropolitan University Research Award, Pompeii, Herculaneum, Naples</p>
 <p>1996 Visiting Critic, Braziers International Artists Workshop, Oxfordshire</p>

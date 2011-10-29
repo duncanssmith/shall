@@ -1,7 +1,7 @@
 <!-- BEGIN LAYER //-->
 
 <div id="theShowButton">
-<a href="#" onClick="showMe();return false;"><img src="images/show_info.gif" border="0"></a>
+<a href="#" onClick="showMe();return false;" class="show_info">details</a>
 </div>
 
 <div id="theLayer">
@@ -18,7 +18,7 @@
 
   </td>
  <td valign="top">
-  <a href="#" onClick="hideMe();return false;"><img src="images/hide_info.gif" border="0"></a>
+  <a href="#" onClick="hideMe();return false;" class="show_info">X</a>
   &nbsp;
   </td>
   </tr>

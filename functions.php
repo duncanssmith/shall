@@ -498,6 +498,66 @@ function layout3(
 	}
 }
 
+function layout4(
+	$dir,
+	$image_set,
+	$section,
+	$textFiles,
+	$textArray,
+	$sectionTextArray){
+
+	include "globals.php";
+
+	if($imagesOn){
+		$directory=$dir;
+	}else{
+		$directory=326;
+	}
+
+	echo "<div id=\"sectiontext\">\n";
+	#show_text( $section, $textFiles, $textArray);
+	echo "</div>\n";
+
+	#echo "<script language=\"javascript\">\n<!--\nvar newwindow; var zoom_count=0;\n-->\n</script>\n";
+  echo "<div>\n";
+  echo "<table class=\"layout4\">";
+  echo "<tr>";
+	for($i=0;$i<sizeof($image_set);$i++){
+	  	
+		if($debug){
+			#echo "\nfile:[".$file."]\n";
+		  echo "<br/>\n";
+		}
+		#include $file;
+		/*=========*/
+		#$directory=64;
+    if($i % 3 == 0){ echo "<tr>"; }
+    echo "<td valign=\"top\" class=\"layout4\">";
+
+		$image=sprintf("images/%s/sh_%s.jpg",$directory,$image_set[$i]);
+		echo "<img src=\"".$image."\"";
+		echo " onClick=\"javascript: pop_zoom_2('".$section."',640,".$i."); return false;\" name=\"swapImage\" alt=\"sh_".$image_set[$i].".jpg\" border=\"0\">\n";
+		/*=========*/
+		#echo "<br/>\n";
+		if($infoOn){
+			#echo "[";
+			#echo $image_set[$i];
+			#echo "]";
+		}
+		if($textOn){
+			echo $textArray[$image_set[$i]];
+			echo $sectionTextArray[$image_set[$i]];
+			echo "\n";
+			#echo "<br/>\n";
+		}
+    echo "</td>";
+    #if($i % 3 == 0){ echo "</tr>"; }
+	}
+    echo "</tr>";
+    echo "</table>";
+		echo "</div>\n";
+}
+
 function show_section_text($set,$textFiles,$TextArray){
 	#$set="current";
 	include "globals.php";

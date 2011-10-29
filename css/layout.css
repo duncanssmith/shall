@@ -1,37 +1,76 @@
 body{
-	font-family: verdana,tahoma,arial, sans-serif;
-	font-size: 8pt;
-	color: #666;
+	font-family: arial,verdana,tahoma,arial, sans-serif;
+	font-size: 9pt;
+	color: #777;
 	background: white;
 }
 
-#header {
-	padding: 20px;
-	background: #fff;
-	border-bottom: solid 1px gray;
+#container {
+  margin: 0 auto;
+  width: 1100px;
+  background: white;
 }
+
+#header {
+	padding: 8px;
+	background: #fff;
+	border-bottom: solid 1px silver;
+}
+
+#content_container {
+  width: 1100px;
+  background: white;
+}
+
+
+#left_sidebar {
+  float: left;
+	border:solid 0px blue;
+  background: white;
+  width: 140px;
+  padding: 15px 10px 10px 10px;
+  margin: 0 15px;
+  display: inline; }
+
 
 #content {
 	border:solid 0px blue;
-	padding:10px;
-	padding-left:40px;
+	padding:0px;
+	padding-left:30px;
 	float: left;
-	width: 480px;
+	width: 400px;
 }
 
 #sidebar {
-	border:solid 0px gray;
-	margin-left:64%;
+	border:solid 0px purple;
+	margin-left:66%;
+	margin-right:8%;
 	margin-top:10px;
 	padding:10px;
+	padding-left:1em;
 	background: #fff;
+}
+
+#sidebar p{
+	font-family: verdana, sans-serif;
+	font-weight: normal;
+	font-size:9pt;
+	color:#999;
 }
 
 #footer {
 	clear: left;
-	border-top:solid 1px gray;
+	border-top:solid 1px silver;
 	padding: 20px;
 	background: #fff;
+}
+
+.layout4 td{
+  padding: 100px;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px red;
 }
 
 #imglayout1{
@@ -54,22 +93,26 @@ body{
 {
 	border:solid 0px green;
 }
-
+a.show_info {
+  font-family: arial, verdana, tahoma;
+  font-size:0.9em;
+  color: silver;
+}
 #theLayer{
 	position:absolute;
-	top:340px;
-	left:410px;
-	width:18em;
+	top:200px;
+	left:90px;
+	width:190px;
 	visibility:hidden;
-	border:solid 0px gray;
+	border:solid 0px silver;
 	cursor:move;
 }
 #theShowButton{
 	position:absolute;
-	top:360px;
-	left:496px;
-	width:8em;
-	border:solid 0px gray;
+	top:220px;
+	left:90px;
+	width:90px;
+	border:solid 0px silver;
 
 }
 #soundbite
@@ -101,8 +144,8 @@ div#soundbite2
 #soundbite2 p{
 	font-size:7pt;
 }
+
 .it{
-	color:gray;
+	color:#aaa;
 	font-weight:bold;
-	border:solid 0px red;
 }

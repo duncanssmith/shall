@@ -4,16 +4,16 @@ a {
 	border-color:#606060;
 }
 a:link {
-	color: #3333aa;
+	color: #606060;
 }
 a:visited {
-	color: #3399dd;
+	color: #606069;
 }
 a:active {
-	color: #6666ee;
+	color: #666666;
 }
 a:hover {
-	color: #3333ff;
+	color: #cccccc;
 }
 .capt {
 	font-size:7pt;

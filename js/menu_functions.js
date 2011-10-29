@@ -91,7 +91,7 @@ function Go(){
 	Creatd=0; Loadd=1;
 	status='Building menu';
 	if(FrstCreat){
-		if(FirstLineFrame =="" || !parent.frames[FirstLineFrame]){
+		if(FirstLineFrame =="" || !parent.frames[FirstLineFrame]){
 			FirstLineFrame=SecLineFrame;
 			if(FirstLineFrame =="" || !parent.frames[FirstLineFrame]){
 				FirstLineFrame=SecLineFrame=DocTargetFrame;

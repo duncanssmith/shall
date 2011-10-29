@@ -9,33 +9,29 @@
 	}
 ?>
 <?php include "menu.php";?>
-
+<div id="container">
 <!-- header -->
 <div id="header">
 
 <!-- 0 --> 
 <?php
 	if(!$debug){
-		echo "<a href=\"#\"><img src=\"images/logo.gif\" border=\"0\"></a>\n";
+		echo "<a href=\"index.php\"><img src=\"images/logo_2011.png\" border=\"0\"></a>\n";
 	}else{
-		echo "<a href=\"#\"><img src=\"images/blank_logo.gif\" border=\"1\"></a>\n";
-
+		#echo "<a href=\"#\"><img src=\"images/blank_logo.gif\" border=\"1\"></a>\n";
 	}
 ?>
-<br/>
-<br/>
-<br/>
-
-<h1><?php echo $sectionNames[$section];?></h1>
-
 <!-- end header -->
 </div>
 
 <!-- content -->
+<div id="content_container">
+  <div id="left_sidebar"> 
+    <h4><?php echo $sectionNames[$section];?></h4>
+  </div>
 <div id="content">
 
 <?php
-
 	if(!(isset($section))){
 		echo "&nbsp;\n";
 	} else {
@@ -48,7 +44,6 @@
 
 		if($layout=="layout1"){
 
-			$dir="160";
 			$dir="326";
 			if($debug){
 				echo "layout:[".$layout."]\n";
@@ -103,6 +98,24 @@
 				$textFiles,
 				$$TextArray,
 				$$sectionTextArray);
+		}else if ($layout=="layout4"){
+
+			$dir="160";
+
+			if($debug){
+				echo "layout:[".$layout."]\n";
+				echo "dir:[".$dir."]<br/>";
+				echo "section:[".$section."]<br/>\n";
+				echo "TextArray:[".$TextArray."]<br/>\n";
+				echo "sectionTextArray:[".$sectionTextArray."]<br/>\n";
+			}
+			layout4(
+				$dir,
+				$$section,
+				$omitted_set,
+				$textFiles,
+				$$TextArray,
+				$$sectionTextArray);
 		}
 
 		$len=sizeof($$section);
@@ -117,11 +130,15 @@
 <!-- end content -->
 </div>
 <div id="sidebar">
+
 	<?php 
 
 		if(is_file($soundbiteFiles[$section])){
 			#echo "<h6>".$sectionNames[$section]."</h6>\n";
+      #echo "<div id=\"infotext\">\n";
+			echo "<br/>\n";
 			include $soundbiteFiles[$section];
+			#echo "</div>\n";
 		}
 		$a=sprintf("$%sText",$section);
 		for($i=0;$i<sizeof($$a);$i++){
@@ -162,8 +179,14 @@
 <?php echo $dateline;?>
 	|
 <?php echo $itingline;?>
+	|
+<?php echo $emailine;?>
+	|
+<?php echo $emailine2;?>
 
 <!-- end footer -->
+</div>
+</div>
 </div>
 </body>
 </html>

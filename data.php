@@ -5,9 +5,10 @@ include "section_item_arrays_003.php";
 #include "info/xml2html.csv";
 #include "xml2html.php";
 
-$itingline="\n<a href=\"mailto:itingdesign@googlemail.com\" class=\"capt\">page design &copy; iting ".$year."</a>\n";
+$itingline="\n<a href=\"mailto:itingdesign@googlemail.com\" class=\"capt\">web design &copy; iting 2005 - ".$year."</a>\n";
 $dateline="\n<a href=\"\" class=\"capt\">".$now."</a>\n";
-
+$emailine="\n<a href=\"mailto:sharonjhall@btinternet.com\" class=\"capt\">All site content &copy; Sharon Hall. All rights reserved</a>\n";
+$emailine2="\n<a href=\"mailto:sharonjhall@btinternet.com\" class=\"capt\">Email Sharon Hall</a>\n";
 /* total number of images */
 $all=240;
 
@@ -24,28 +25,27 @@ $CvText=array(
 	'sh_text_020.php'
  );
 $TextsText=array(
-'sh_text_031.php',
-'sh_text_030.php',
-'sh_text_002.php',
-'sh_text_034.php',
-'sh_text_022.php',
-'sh_text_023.php',
-'sh_text_005.php',
-'sh_text_035.php',
-'sh_text_006.php',
-'sh_text_008.php',
-'sh_text_007.php',
-'sh_text_001.php',
-'sh_text_003.php',
-'sh_text_036.php',
-'sh_text_025.php',
-'sh_text_004.php',
-'sh_text_021.php'
+	'sh_text_031.php',
+	'sh_text_030.php',
+	'sh_text_002.php',
+	'sh_text_034.php',
+	'sh_text_022.php',
+	'sh_text_023.php',
+	'sh_text_005.php',
+	'sh_text_035.php',
+	'sh_text_006.php',
+	'sh_text_008.php',
+	'sh_text_007.php',
+	'sh_text_001.php',
+	'sh_text_003.php',
+	'sh_text_036.php',
+	'sh_text_025.php',
+	'sh_text_004.php',
+	'sh_text_021.php'
 
-#'sh_text_032.php',
-#'sh_text_029.php',
-#'sh_text_028.php',
-
+	#'sh_text_032.php',
+	#'sh_text_029.php',
+	#'sh_text_028.php',
 	#'sh_text_027.php',
 	#'sh_text_000.php',
 	#'sh_text_009.php',
@@ -87,6 +87,7 @@ $CurrentCText=array( 'sh_text_999.php' );
 $CurrentDText=array( 'sh_text_999.php' );
 $CurrentEText=array( 'sh_text_999.php');
 $CurrentFText=array( 'sh_text_999.php');
+$CurrentGText=array( 'sh_text_999.php');
 
 
 //END TEXTS
@@ -96,7 +97,7 @@ $sectionNames=array(
 	'Home'=>'Home',
 	'Cv'=>'Curriculum Vitae',
 	'AllInfo'=>'Image Info',
-	'All'=>'All 240 Images',
+	'All'=>'All 252 Images',
 	'Selected'=>'Selected Images',
 	'Banners'=>'Banners',
 	'Roma'=>'Roma',
@@ -109,13 +110,14 @@ $sectionNames=array(
 	'GoldDust'=>'Gold Dust Pieces',
 	'Catalogues'=>'Catalogues and Primers',
 	'Ornament'=>'Ornament',
-	'Current'=>'Work since 2000',
+	'Current'=>'Archive',
 	'CurrentA'=>'Grids',
 	'CurrentB'=>'Loops',
 	'CurrentC'=>'Surface/Connections, Holden Gallery',
 	'CurrentD'=>'Multi Panels',
 	'CurrentE'=>'Islington Mill Gallery',
 	'CurrentF'=>'Combinations',
+	'CurrentG'=>'Current Work',
 	'Omitted'=>'Omitted Images',
 	'New20051031'=>'Additions'
 );
@@ -161,8 +163,8 @@ $soundbiteFiles=array (
 #$rNum03=rand(1, $range);
 
 srand((double) microtime() * ( 10000 ));
-$range=11;
-$rNum02=rand(1, $range);
+$range=1;
+$rNum02=0;#rand(1, $range);
 
 $a=array();
 #$a[1]=sprintf("%04d",$rNum00);
@@ -170,22 +172,20 @@ $a=array();
 #$a[0]=sprintf("%04d",$rNum02);
 
 $r1=array(
-'',
-'0239',
-'0238',
-'0230',
-'0231',
-'0232',
-'0233',
-'0235',
-'0234',
-'0236',
-'0240',
-'0237' 
+#'0252'
+'0253'
+#'0239',
+#'0238',
+#'0230',
+#'0231',
+#'0232',
+#'0233',
+#'0235',
+#'0234',
+#'0236',
+#'0240',
+#'0237' 
 );
-
-
-
 
 $Texts=array(
 	#$r1[$rNum00],
@@ -240,7 +240,7 @@ $Catalogues=array(
 '0083',
 '0122',
 '0201'
- );
+);
 
 $ThomasBewick=array(
 '0202',
@@ -318,11 +318,13 @@ $Histories=array(
 '0205',
 '0206'
 );
+
 $Roma=array(
 '0093',
 '0068',
 '0227'
 );
+
 $Ornament=array( 
 '0106',
 '0111',
@@ -345,6 +347,7 @@ $Ornament=array(
 '0082',
 '0078'
 );
+
 $Starmaps=array(
 '0127',
 '0128',
@@ -431,6 +434,21 @@ $CurrentF=array(
 '0237' 
 );
 
+$CurrentG=array(
+ '0241',
+ '0242',
+ '0243',
+ '0244',
+ '0245',
+ '0246',
+ '0247',
+ '0248',
+ '0249',
+ '0250',
+ '0251',
+ '0252'
+);
+
 #$New20051031=array( '0157', '0158', '0159', '0160', '0161', '0162', '0163', '0164', '0165', '0166', '0167', '0168', '0169', '0170', '0171', '0172', '0173', '0174', '0175', '0176', '0177', '0178', '0179', '0180', '0181', '0182', '0183', '0184', '0185', '0186', '0187', '0188', '0189', '0190', '0191', '0192', '0193', '0194', '0195', '0196', '0197', '0198', '0199', '0200', '0201', '0202', '0203', '0204', '0205', '0206', '0207', '0208', '0209', '0210', '0211', '0212', '0213', '0214', '0215', '0216', '0217', '0218', '0219', '0220', '0221', '0222', '0223', '0224', '0225', '0226', '0227', '0228', '0229');
 #Remainder with OMITTED images included: 
 #$Current_Work_2000_Date=array('1','2','3','4','5','6','7','8','9','10','12','13','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','50','77','78','90','91','92','106','109','110','111','114','115','125','126','140','141','142','143','144','145','146','147','148','149','150','151','152','153','154','155','156');
@@ -438,5 +456,3 @@ $CurrentF=array(
 #$EmptySet=array();
 #$Omitted=array( '0001', '0002', '0005', '0006', '0007', '0008', '0009', '0010', '0012', '0013', '0014', '0015', '0017', '0019', '0029', '0030', '0036', '0039', '0040', '0042', '0050', '0060', '0076', '0077', '0090', '0091', '0092', '0094', '0103', '0104', '0140', '0144', '0145', '0148', '0149', '0152', '0155', '0156', '0158', '0159', '0160', '0161', '0163', '0164', '0165', '0166', '0167', '0169', '0170', '0171', '0172', '0173', '0174', '0175', '0176', '0177', '0179', '0180', '0181', '0183', '0184', '0185', '0186', '0187', '0188', '0190', '0191', '0192', '0193', '0194', '0195', '0196', '0197'); 
 ?>
-
-

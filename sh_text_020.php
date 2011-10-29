@@ -1,4 +1,8 @@
 <h5>Selected recent group exhibitions</h5>
+<p>2009 <i>Mini Meta</i>, Beardsmore Gallery, London</p>
+<p>2009 <i>Meta-Contemporary British Abstract Painting</i>, Anglia Ruskin University, Cambridge</p>
+<p>2009 <i>Conversations in Painting</i>, Chapman Gallery, Salford</p>
+<p>2007 <i>Grotto</i>, Gallery 1.1, London</p>
 <p>2006 <i>Transfer</i>, Keith Talent Gallery, London</p>
 <p>2005 <i>Painting, Fabian Peake, Sharon Hall</i>, Islington Mill Gallery, Salford</p>
 <p>2004 <i>Surface Connections</i>, Holden Gallery, Manchester</p>
