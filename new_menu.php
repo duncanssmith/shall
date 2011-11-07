@@ -1,36 +1,36 @@
 
 
 <ul id="jsddm">
-    <li><a href="sh_024.php">Current work</a>
+    <li><a href="Current_Work.php">Current work</a>
         <ul>
             <li><a href="index.php">Home</a></li>
         </ul>
     </li>
     <li><a href="index.php">Archive</a>
         <ul>
-            <li><a href="sh_022.php">Combinations</a></li>
-            <li><a href="sh_021.php">Islington Mill</a></li>
-            <li><a href="sh_020.php">Multi Panels</a></li>
-            <li><a href="sh_019.php">Surface/Connections</a></li>
-            <li><a href="sh_018.php">Loops</a></li>
-            <li><a href="sh_017.php">Grids</a></li>
-            <li><a href="sh_008.php">Ornament</a></li>
-            <li><a href="sh_009.php">Starmaps and Follies</a></li>
-            <li><a href="sh_006.php">Printed Paintings</a></li>
-            <li><a href="sh_011.php">Histories</a></li>
-            <li><a href="sh_004.php">Roma</a></li>
-            <li><a href="sh_010.php">The World Turned Upside Down</a></li>
-            <li><a href="sh_003.php">Greyfriars</a></li>
-            <li><a href="sh_002.php">Catalogues and Primers</a></li>
-            <li><a href="sh_005.php">Thomas Bewick and Other Allegories</a></li>
-            <li><a href="sh_007.php">Gold Dust Pieces</a></li>
-            <li><a href="sh_001.php">Banners</a></li>
+            <li><a href="Combinations.php">Combinations</a></li>
+            <li><a href="Islington_Mill.php">Islington Mill</a></li>
+            <li><a href="Multi_Panels.php">Multi Panels</a></li>
+            <li><a href="Surface_Connections.php">Surface/Connections</a></li>
+            <li><a href="Loops.php">Loops</a></li>
+            <li><a href="Grids.php">Grids</a></li>
+            <li><a href="Ornament.php">Ornament</a></li>
+            <li><a href="Starmaps_and_Follies.php">Starmaps and Follies</a></li>
+            <li><a href="Printed_Paintings.php">Printed Paintings</a></li>
+            <li><a href="Histories.php">Histories</a></li>
+            <li><a href="Roma.php">Roma</a></li>
+            <li><a href="The_World_Turned_Upside_Down.php">The World Turned Upside Down</a></li>
+            <li><a href="Greyfriars.php">Greyfriars</a></li>
+            <li><a href="Catalogues_and_Primers.php">Catalogues and Primers</a></li>
+            <li><a href="Thomas_Bewick_and_Other_Allegories.php">Thomas Bewick and Other Allegories</a></li>
+            <li><a href="Gold_Dust_Pieces.php">Gold Dust Pieces</a></li>
+            <li><a href="Banners.php">Banners</a></li>
         </ul>
     </li>
     <li><a href="index.php">Texts</a>
         <ul>
-            <li><a href="sh_000.php">Curriculum Vitae</a></li>
-            <li><a href="sh_023.php">Selected texts and critical writings</a></li>
+            <li><a href="CV.php">Curriculum Vitae</a></li>
+            <li><a href="Texts_and_Critical_Writings.php">Selected texts and critical writings</a></li>
         </ul>
     </li>
 </ul>

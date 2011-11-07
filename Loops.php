@@ -1,7 +1,7 @@
 <?php
 
 $applicationName="index.php";
-$thisPage="sh_000.php";
+$thisPage="sh_018.php";
 
 include "data.php";
 include "functions.php";

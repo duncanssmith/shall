@@ -15,13 +15,16 @@
 <!-- 0 --> 
 <?php
 	if(!$debug){
-		echo "<a href=\"index.php\"><img src=\"images/logo_2011.png\" border=\"0\"></a>\n";
+		echo "<div id=\"logo\"><a href=\"index.php\"><img src=\"images/logo_2011.png\" border=\"0\"></a></div>\n";
 	}else{
 		#echo "<a href=\"#\"><img src=\"images/blank_logo.gif\" border=\"1\"></a>\n";
 	}
-  include "new_menu.php";
+  
 ?>
 <!-- end header -->
+  <div id="menu">
+   <?php include "new_menu.php";?>
+  </div>
 </div>
 
 <!-- content -->
