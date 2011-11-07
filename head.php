@@ -16,7 +16,11 @@
 <link rel="stylesheet" href="css/main.css" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta name="search" content="yes">
-
+<!--
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+-->
 <title><?php echo $sitename;?></title>
 
 <?php
@@ -139,7 +143,10 @@ if($xmlOn){
 	build_js_text_array($section,$$section,$$sectionTextArray);
 ?>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript"></script>
 <script src="js/sh.js"> </script>
-<script src="js/menu_functions.js"> </script>
 <script src="js/layer.js"> </script>
+<script src="js/jquery.min.js"> </script>
+<script src="js/jsddm.js"> </script>
+
 </head>

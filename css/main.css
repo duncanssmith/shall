@@ -66,3 +66,45 @@ div.datebox
 	background: #eff;
 }
 
+#jsddm
+{	margin: 0;
+	padding: 0}
+	
+	#jsddm li
+	{	float: left;
+		list-style: none;
+                font-size: 9pt;
+                font-weight: normal;
+		font-family: Verdana, sans-serif }
+
+	#jsddm li a
+	{	display: block;
+		background: #686868;
+		padding: 5px 12px;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 70px;
+		color: #ffffff;
+		white-space: nowrap}
+
+	#jsddm li a:hover
+	{	background: #686868}
+		
+		#jsddm li ul
+		{	margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			border-top: 1px solid white}
+		
+		#jsddm li ul li
+		{	float: none;
+			display: inline}
+		
+		#jsddm li ul li a
+		{	width: auto;
+			background: #686868}
+		
+		#jsddm li ul li a:hover
+		{	background: #686868}
+

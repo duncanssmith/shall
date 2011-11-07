@@ -8,7 +8,6 @@
 		echo "</pre>\n";
 	}
 ?>
-<?php include "menu.php";?>
 <div id="container">
 <!-- header -->
 <div id="header">
@@ -20,6 +19,7 @@
 	}else{
 		#echo "<a href=\"#\"><img src=\"images/blank_logo.gif\" border=\"1\"></a>\n";
 	}
+  include "new_menu.php";
 ?>
 <!-- end header -->
 </div>

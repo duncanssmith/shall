@@ -1,7 +1,7 @@
-<script type='text/javascript'>
+<script type='text/JavaScript'>
 <!--
-Menu1=new Array("Current Work","sh_024.php","",1,20,90);
-  Menu1_1=new Array("Home","index.php","",0,20,90);
+Menu1=new Array("Current Work","sh_024.php","AAA",1,20,90);
+  Menu1_1=new Array("Home","index.php","BBB",0,20,90);
 
 Menu2=new Array("Archive","index.php","",17,0,90);
   Menu2_1=new Array("Combinations","sh_022.php","",0,20,240);
@@ -34,8 +34,8 @@ var HighBgColor='aaaaaa';	// Background color when mouse is over
 var HighSubBgColor='aaaaaa';	// Background color when mouse is over on subs
 var FontLowColor='808080';	// Font color when mouse is not over
 var FontSubLowColor='808080';	// Font color subs when mouse is not over
-var FontHighColor='ffccff';	// Font color when mouse is over
-var FontSubHighColor='ffccff';	// Font color subs when mouse is over
+var FontHighColor='ffffff';	// Font color when mouse is over
+var FontSubHighColor='ffffff';	// Font color subs when mouse is over
 var BorderColor='cccccc';	// Border color
 var BorderSubColor='cccccc';	// Border color for subs
 var BorderWidth=1;		// Border width

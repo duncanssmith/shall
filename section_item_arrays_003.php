@@ -192,20 +192,30 @@ $CurrentFInfo=array('0239'=>'<p class=\"it\">Untitled<br/> Oil on canvas<br/> 60
 ,'0237'=>'<p class=\"it\">Diptych #3<br/> Oil on linen<br/> 150 x 270 cm<br/> 2006</p>'
 );
 $CurrentGInfo=array(
- '0241'=>'<p class=\"it\">Untitled<br/>Oil on cotton duck<br/> 70 x 80 cm<br/> 2009</p>'
+ '0253'=>'<p class=\"it\">Not Titled (Orange Diagonals)<br/>Oil on linen<br/> 80 x 100 cm<br/> 2011</p>'
+,'0254'=>'<p class=\"it\">Not Titled (Yellow Diagonals)<br/>Oil on linen<br/> 80 x 100 cm<br/> 2011</p>'
+,'0257'=>'<p class=\"it\">Not Titled (Diagonals in Dark Bands)<br/>Oil on linen<br/> 90 x 90 cm<br/> 2011</p>'
+,'0258'=>'<p class=\"it\">Not Titled (Diagonals in Yellow Bands)<br/>Oil on linen<br/> 90 x 90 cm<br/> 2011</p>'
+,'0259'=>'<p class=\"it\">Green and Orange Bands (Homage to G.M.)<br/>Oil on linen<br/> 120 x 152 cm<br/> 2011</p>'
+,'0264'=>'<p class=\"it\">Not Titled (Tondo with Linen) <br/>Oil on linen<br/> 60 cm diameter<br/> 2011</p>'
+,'0263'=>'<p class=\"it\">Not Titled (Yellow Tondo) <br/>Oil on cotton duck<br/> 35 cm diameter<br/> 2011</p>'
+,'0265'=>'<p class=\"it\">Not Titled (Red Tondo) <br/>Oil on linen<br/> 20 cm diameter<br/> 2011</p>'
+,'0260'=>'<p class=\"it\">Installed paintings <br/>2011</p>'
+,'0262'=>'<p class=\"it\">Installed paintings <br/>2011</p>'
+,'0261'=>'<p class=\"it\">Installed paintings <br/>2011</p>'
+,'0255'=>'<p class=\"it\">Diptych with Zig Zags <br/>2011</p>'
+,'0256'=>'<p class=\"it\">Installed paintings <br/>2011</p>'
+,'0241'=>'<p class=\"it\">Untitled<br/>Oil on cotton duck<br/> 70 x 80 cm<br/> 2009</p>'
 ,'0242'=>'<p class=\"it\">Untitled<br/>Oil on cotton duck<br/> 70 x 80 cm<br/> 2009</p>'
 ,'0243'=>'<p class=\"it\">Untitled<br/>Oil on cotton duck<br/> 75 x 100 cm<br/> 2010</p>'
 ,'0244'=>'<p class=\"it\">Untitled<br/>Oil on linen<br/> 75 x 100 cm<br/> 2009<br/> Private collection UK</p>'
 ,'0245'=>'<p class=\"it\">Untitled (Fan)<br/>Oil on linen<br/> 75 x 100 cm<br/> 2010</p>'
 ,'0246'=>'<p class=\"it\">Untitled<br/>Oil on linen<br/> 75 x 100 cm<br/> 2010</p>'
 ,'0247'=>'<p class=\"it\">Untitled (Corner)<br/>Oil on linen<br/> 75 x 100 cm<br/> 2010</p>'
-,'0248'=>'<p class=\"it\">Untitled (Pyramid)<br/>Oil on linen<br/> 75 x 100 cm<br/> 2010</p>'
-,'0249'=>'<p class=\"it\">Tondo<br/> Oil on linen<br/> 90 cm diameter<br/> 2010</p>'
-,'0250'=>'<p class=\"it\">Diptych (Window)<br/> Oil on linen<br/> 80 x 240 cm<br/> 2009</p>'
-,'0251'=>'<p class=\"it\">Diptych (Wall)<br/> Oil on linen<br/> 80 x 240 cm<br/> 2009</p>'
+,'0248'=>'<p class=\"it\">Untitled (Pyramid)<br/>Oil on linen<br/> 90 x 90 cm<br/> 2010</p>'
+,'0249'=>'<p class=\"it\">Tondo<br/> Oil on linen<br/> 60 cm diameter<br/> 2010<br/> Private collection Italy</p>'
+,'0250'=>'<p class=\"it\">Diptych (Window)<br/> Oil on linen<br/> 152 x 240 cm<br/> 2009</p>'
+,'0251'=>'<p class=\"it\">Diptych (Wall)<br/> Oil on linen<br/> 152 x 240 cm<br/> 2009</p>'
 ,'0252'=>'<p class=\"it\">Studio<br/></p>'
 );
-
-
 ?>
-
