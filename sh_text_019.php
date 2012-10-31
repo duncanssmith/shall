@@ -1,5 +1,6 @@
 <h5>Solo Exhibitions</h5>
 <!--<p>2006 <i>Surface Connections II</i>, Keith Talent Gallery London</p>-->
+<p>2013 Palazzo del Podesta, Pescia(PT), Italy</p>
 <p>1995 Union Street Gallery, London</p>
 <p>1993 Castlefield Gallery, Manchester</p>
 <p>1991 British School at Rome Gallery, Rome, Italy</p>

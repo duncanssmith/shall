@@ -1,4 +1,5 @@
 <h5>Selected recent group exhibitions</h5>
+<p>2012 <i>Zombie Modernism</i>, Malgras|Naudet Gallery, Manchester</p>
 <p>2009 <i>Mini Meta</i>, Beardsmore Gallery, London</p>
 <p>2009 <i>Meta-Contemporary British Abstract Painting</i>, Anglia Ruskin University, Cambridge</p>
 <p>2009 <i>Conversations in Painting</i>, Chapman Gallery, Salford</p>

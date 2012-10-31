@@ -196,7 +196,7 @@ $CurrentGInfo=array(
 ,'0254'=>'<p class=\"it\">Not Titled (Yellow Diagonals)<br/>Oil on linen<br/> 80 x 100 cm<br/> 2011</p>'
 ,'0257'=>'<p class=\"it\">Not Titled (Diagonals in Dark Bands)<br/>Oil on linen<br/> 90 x 90 cm<br/> 2011</p>'
 ,'0258'=>'<p class=\"it\">Not Titled (Diagonals in Yellow Bands)<br/>Oil on linen<br/> 90 x 90 cm<br/> 2011</p>'
-,'0259'=>'<p class=\"it\">Green and Orange Bands (Homage to G.M.)<br/>Oil on linen<br/> 120 x 152 cm<br/> 2011</p>'
+,'0266'=>'<p class=\"it\">Green and Orange Bands (Homage to G.M.)<br/>Oil on linen<br/> 120 x 152 cm<br/> 2011/12</p>'
 ,'0264'=>'<p class=\"it\">Not Titled (Tondo with Linen) <br/>Oil on linen<br/> 60 cm diameter<br/> 2011</p>'
 ,'0263'=>'<p class=\"it\">Not Titled (Yellow Tondo) <br/>Oil on cotton duck<br/> 35 cm diameter<br/> 2011</p>'
 ,'0265'=>'<p class=\"it\">Not Titled (Red Tondo) <br/>Oil on linen<br/> 20 cm diameter<br/> 2011</p>'
@@ -217,5 +217,7 @@ $CurrentGInfo=array(
 ,'0250'=>'<p class=\"it\">Diptych (Window)<br/> Oil on linen<br/> 152 x 240 cm<br/> 2009</p>'
 ,'0251'=>'<p class=\"it\">Diptych (Wall)<br/> Oil on linen<br/> 152 x 240 cm<br/> 2009</p>'
 ,'0252'=>'<p class=\"it\">Studio<br/></p>'
+,'0267'=>'<p class=\"it\">Solvay Bands<br/>Oil on linen<br/> 120 x 152 cm<br/> 2012 </p>'
+,'0268'=>'<p class=\"it\">Not Titled (Three Pyramids)<br/>Oil on linen<br/> 130 x 148 cm<br/> 2012 </p>'
 );
 ?>
