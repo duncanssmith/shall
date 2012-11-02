@@ -192,7 +192,9 @@ $CurrentFInfo=array('0239'=>'<p class=\"it\">Untitled<br/> Oil on canvas<br/> 60
 ,'0237'=>'<p class=\"it\">Diptych #3<br/> Oil on linen<br/> 150 x 270 cm<br/> 2006</p>'
 );
 $CurrentGInfo=array(
- '0253'=>'<p class=\"it\">Not Titled (Orange Diagonals)<br/>Oil on linen<br/> 80 x 100 cm<br/> 2011</p>'
+ '0267'=>'<p class=\"it\">Solvay Bands<br/>Oil on linen<br/> 120 x 152 cm<br/> 2012 </p>'
+,'0268'=>'<p class=\"it\">Not Titled (Three Pyramids)<br/>Oil on linen<br/> 130 x 148 cm<br/> 2012 </p>'
+,'0253'=>'<p class=\"it\">Not Titled (Orange Diagonals)<br/>Oil on linen<br/> 80 x 100 cm<br/> 2011</p>'
 ,'0254'=>'<p class=\"it\">Not Titled (Yellow Diagonals)<br/>Oil on linen<br/> 80 x 100 cm<br/> 2011</p>'
 ,'0257'=>'<p class=\"it\">Not Titled (Diagonals in Dark Bands)<br/>Oil on linen<br/> 90 x 90 cm<br/> 2011</p>'
 ,'0258'=>'<p class=\"it\">Not Titled (Diagonals in Yellow Bands)<br/>Oil on linen<br/> 90 x 90 cm<br/> 2011</p>'
@@ -217,7 +219,5 @@ $CurrentGInfo=array(
 ,'0250'=>'<p class=\"it\">Diptych (Window)<br/> Oil on linen<br/> 152 x 240 cm<br/> 2009</p>'
 ,'0251'=>'<p class=\"it\">Diptych (Wall)<br/> Oil on linen<br/> 152 x 240 cm<br/> 2009</p>'
 ,'0252'=>'<p class=\"it\">Studio<br/></p>'
-,'0267'=>'<p class=\"it\">Solvay Bands<br/>Oil on linen<br/> 120 x 152 cm<br/> 2012 </p>'
-,'0268'=>'<p class=\"it\">Not Titled (Three Pyramids)<br/>Oil on linen<br/> 130 x 148 cm<br/> 2012 </p>'
 );
 ?>
