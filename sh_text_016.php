@@ -1,5 +1,7 @@
 <h5>Bibliography</h5>
-<p>2009 <i>Transitions/Abstractions</i>, David Ryan, essay
+<p>2014 <i>Colour/Boundary</i> Gallery North, Newcastle upon Tyne. Catalogue essay by David Sweet</p>
+<p>2013 <i>Colour in Place</i> Palazzo del Podesta, Pescia, Italy. Catalogue essays by Stuart Bradshaw, David Ryan</p>
+<p>2009 <i>Transitions/Abstractions</i>, David Ryan, essay</p>
 <p>2006 <i>Transfer</i>, critical text, Bernice Donszelman, Jeremy Gilbert-Rolfe, David Ryan</p>
 <p>2005 <i>Painting, Fabian Peake, Sharon Hall</i>, Alistair Payne, catalogue essay, Islington Mill, Salford</p>
 <!--<p>2004 Bernice Donszelman, catalogue essay, <i>Surface Connections</i>, Holden Gallery, Manchester</p>-->

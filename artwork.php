@@ -1,4 +1,4 @@
-<?PHP
+<?php
 #<html>
 #  <head>
 #    <title>Artlist: xml parse example</title>
@@ -9,7 +9,8 @@
 #    This file will need to be updated! DS 20080818
 #
 
-  class Artlist{
+class Artlist 
+{
     var $parser;
     var $record;
     var $current_field='';
@@ -17,7 +18,8 @@
     var $ends_record;
     var $records;
 
-    function Artlist($filename){
+    function Artlist($filename)
+    {
 
       global $debug;
 
@@ -57,7 +59,8 @@
       xml_parser_free($this->parser);
       }
 
-      function start_element($p,$element,$attributes){
+      function start_element($p,$element,$attributes) 
+      {
 
         global $debug;
 

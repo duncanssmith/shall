@@ -163,15 +163,15 @@ $soundbiteFiles=array (
 #$rNum03=rand(1, $range);
 
 srand((double) microtime() * ( 10000 ));
-$range=1;
-$rNum02=0;#rand(1, $range);
+$range = 1;
+$rNum02 = 0;#rand(1, $range);
 
-$a=array();
+$a = array();
 #$a[1]=sprintf("%04d",$rNum00);
 #$a[2]=sprintf("%04d",$rNum01);
 #$a[0]=sprintf("%04d",$rNum02);
 
-$r1=array(
+$r1 = array(
 #'0252'
 '0300',
 '0300',
@@ -189,23 +189,23 @@ $r1=array(
 #'0237' 
 );
 
-$Texts=array(
+$Texts = array(
 	#$r1[$rNum00],
 	#$r2[$rNum01],
 	$r1[$rNum02]
 );
-$Cv= array(
+$Cv = array(
 	#$r1[$rNum00],
 	#$r2[$rNum01],
 	$r1[$rNum02]
 );
-$Home= array(
+$Home = array(
 	#$r1[$rNum00],
 	#$r2[$rNum01],
 	#$r1[$rNum02]
         '0300'
 );
-$Current= array(
+$Current = array(
 	#$r1[$rNum00],
 	#$r2[$rNum01],
 	$r1[$rNum02]
@@ -218,7 +218,7 @@ $Current= array(
 // and printing all of them unless they are present in the Omitted array.
 #$Selected=array();
 
-$Banners=array(
+$Banners = array(
 '0225',
 '0046',
 '0047',
@@ -226,7 +226,7 @@ $Banners=array(
 '0220'
 );
 
-$Catalogues=array(
+$Catalogues = array(
 '0011',
 '0084',
 '0085',
@@ -245,7 +245,7 @@ $Catalogues=array(
 '0201'
 );
 
-$ThomasBewick=array(
+$ThomasBewick = array(
 '0202',
 '0212',
 '0211',
@@ -264,7 +264,7 @@ $ThomasBewick=array(
 '0086'
 );
 
-$World=array(
+$World = array(
 '0209',
 '0213',
 '0218',
@@ -279,7 +279,7 @@ $World=array(
 '0139'
 );
 
-$Greyfriars=array(
+$Greyfriars = array(
 '0057',
 '0058',
 '0059',
@@ -288,7 +288,7 @@ $Greyfriars=array(
 '0062'
 );
 
-$Printed=array(
+$Printed = array(
 '0064',
 '0067',
 '0065', 
@@ -299,7 +299,7 @@ $Printed=array(
 '0215'
 );
 
-$GoldDust=array(
+$GoldDust = array(
 '0014',
 '0157',
 '0073',
@@ -313,7 +313,7 @@ $GoldDust=array(
 '0102'
 );
 
-$Histories=array(
+$Histories = array(
 '0088',
 '0087',
 '0089',
@@ -322,13 +322,13 @@ $Histories=array(
 '0206'
 );
 
-$Roma=array(
+$Roma = array(
 '0093',
 '0068',
 '0227'
 );
 
-$Ornament=array( 
+$Ornament = array( 
 '0106',
 '0111',
 '0123',
@@ -351,7 +351,7 @@ $Ornament=array(
 '0078'
 );
 
-$Starmaps=array(
+$Starmaps = array(
 '0127',
 '0128',
 '0129',
@@ -361,7 +361,7 @@ $Starmaps=array(
 '0198'
 );
 
-$CurrentA=array(
+$CurrentA = array(
 '0105',
 '0107',
 '0114',
@@ -372,7 +372,7 @@ $CurrentA=array(
 '0109'
 );
 
-$CurrentB=array(
+$CurrentB = array(
 '0003',
 '0004',
 '0027',
@@ -397,7 +397,7 @@ $CurrentB=array(
 #'0185'
 );
 
-$CurrentC=array(
+$CurrentC = array(
 '0016',
 '0018',
 '0020',
@@ -407,7 +407,7 @@ $CurrentC=array(
 '0024'
 );
 
-$CurrentD=array(
+$CurrentD = array(
 '0142',
 '0154',
 '0141',
@@ -415,7 +415,7 @@ $CurrentD=array(
 '0182'
 );
 
-$CurrentE=array(
+$CurrentE = array(
 '0146',
 '0147',
 '0151',
@@ -423,7 +423,7 @@ $CurrentE=array(
 '0153'
 );
 
-$CurrentF=array(
+$CurrentF = array(
 '0239',
 '0238',
 '0230',
@@ -437,34 +437,43 @@ $CurrentF=array(
 '0237' 
 );
 
-$CurrentG=array(
- '0267',
- '0268',
- '0253',
- '0254',
- '0257',
- '0258',
- '0266',
- '0264',
- '0263',
- '0265',
- '0260',
- '0262',
- '0261',
- '0255',
- '0256',
- '0241',
- '0242',
- '0243',
- '0244',
- '0245',
- '0246',
- '0247',
- '0248',
- '0249',
- '0250',
- '0251',
- '0252'
+$CurrentG = array(
+'0271',
+'0270',
+'0269',
+'0277',
+'0276',
+'0275',
+'0274',
+'0273',
+'0272',
+	 '0267',
+	 '0268',
+	 '0253',
+	 '0254',
+	 '0257',
+	 '0258',
+	 '0266',
+	 '0264',
+	 '0263',
+	 '0265',
+	 '0260',
+	 '0262',
+	 '0261',
+	 '0255',
+	 '0256',
+	 '0241',
+	 '0242',
+	 '0243',
+	 '0244',
+	 '0245',
+	 '0246',
+	 '0247',
+	 '0248',
+	 '0249',
+	 '0250',
+	 '0251',
+	 '0252'
 );
 
 #$New20051031=array( '0157', '0158', '0159', '0160', '0161', '0162', '0163', '0164', '0165', '0166', '0167', '0168', '0169', '0170', '0171', '0172', '0173', '0174', '0175', '0176', '0177', '0178', '0179', '0180', '0181', '0182', '0183', '0184', '0185', '0186', '0187', '0188', '0189', '0190', '0191', '0192', '0193', '0194', '0195', '0196', '0197', '0198', '0199', '0200', '0201', '0202', '0203', '0204', '0205', '0206', '0207', '0208', '0209', '0210', '0211', '0212', '0213', '0214', '0215', '0216', '0217', '0218', '0219', '0220', '0221', '0222', '0223', '0224', '0225', '0226', '0227', '0228', '0229');

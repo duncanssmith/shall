@@ -6,7 +6,7 @@
 
 var zoom_count=0;
 
-function sameimg(n){
+function sameimg(n) {
 	//n--;
        	var one="'javascript:pop_zoom(";
 	var two=n;
@@ -309,7 +309,7 @@ Cookie.prototype.remove = function(){
 function pop_zoom_2(section,size,index)
 {
 	//alert(zoom[index]);
-
+    //console_log("DUNCAN DEBUG section: " + section + " size:" + size + " index:" + index);
 	var image=zoom[index];
 	var rnd=Math.round(1000*Math.random());
 	var height=size+=80;
@@ -319,18 +319,20 @@ function pop_zoom_2(section,size,index)
 	var left=rnd/10;
 	var top=rnd/10;
   	var generator=window.open('',namex,'height='+height+',width='+width+',left='+left+',top='+top+',resizable=yes,scrollbars=no,toolbar=no,status=yes');
-	if (window.focus) {generator.focus();}
+	if (window.focus) {
+		generator.focus();
+	}
 
- 
-  generator.document.write('<html>\n<head>\n<title>' + index + ' ' + section + '</title>\n');
+    //generator.document.write('<html>\n<head>\n<title>' + index + ' ' + section + '</title>\n');
+    generator.document.write('<html>\n<head>\n');
 	generator.document.write('<link rel="stylesheet" href="css/sh.css">\n');
 	generator.document.write('</head>\n<body>\n');
-	//generator.document.write( topline );
+	generator.document.write( topline );
 	
 	generator.document.write('<p>');
 	//generator.document.write(namex);
 	generator.document.write('</p>');
-	generator.document.write('<img src=\"');
+	generator.document.write('<img src="');
 	generator.document.write( image );
 	generator.document.write('"/>\n');
 	generator.document.write('<p><a href="javascript:self.close()">&nbsp;<img src="images/close_window.gif" border="0"></a></p>\n');

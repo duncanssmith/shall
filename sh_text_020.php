@@ -1,4 +1,8 @@
 <h5>Selected recent group exhibitions</h5>
+
+<p>2014/15 <i>(detail)</i>, H Gallery, Bangkok, Transition Gallery, London, Usher Gallery, Lincoln. Curated by Andrew Bracey</p>
+<p>2014 <i>Colour/Boundary</i>, Gallery North, Newcastle upon Tyne</p>
+<p>2013 <i>Unspecific Objects</i>, The Royal Standard, Liverpool</p>
 <p>2012 <i>Zombie Modernism</i>, Malgras|Naudet Gallery, Manchester</p>
 <p>2009 <i>Mini Meta</i>, Beardsmore Gallery, London</p>
 <p>2009 <i>Meta-Contemporary British Abstract Painting</i>, Anglia Ruskin University, Cambridge</p>

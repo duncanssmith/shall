@@ -12,6 +12,7 @@
 *.png
 *.sib
 *.tmp
+*.DS_Store
 Thumbs.db
 Session.vim
 images/120/.DS_Store
